@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MoterDriverBoard for Tang Nano 9K")
+  )
+
   (lib_symbols
     (symbol "455-1639-nd:455-1639-ND" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -2.54 1.27 0)
