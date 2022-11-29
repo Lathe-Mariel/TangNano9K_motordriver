@@ -1,0 +1,439 @@
+Info: Processing symbol 'C1:Capacitor_THT:CP_Radial_D5.0mm_P2.50mm'.
+Info: Processing symbol 'C6:Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm'.
+Info: Processing symbol 'SW3:Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm'.
+Info: Processing symbol 'J6:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'C4:Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm'.
+Info: Processing symbol 'R2:Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal'.
+Info: Processing symbol 'R3:Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal'.
+Info: Processing symbol 'R1:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R6:Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal'.
+Info: Processing symbol 'R4:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'C2:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'SW1:Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm'.
+Info: Processing symbol 'J1:Connector_BarrelJack:BarrelJack_Horizontal'.
+Info: Processing symbol 'R5:Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal'.
+Info: Processing symbol 'C5:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'SW2:Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm'.
+Info: Processing symbol 'TP1:TestPoint:TestPoint_Pad_D2.0mm'.
+Info: Processing symbol 'J7:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical'.
+Info: Processing symbol 'C3:Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'J4:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical'.
+Info: Processing symbol 'J3:TerminalBlock:TerminalBlock_bornier-4_P5.08mm'.
+Info: Processing symbol 'J5:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical'.
+Info: Processing symbol 'TP2:TestPoint:TestPoint_Pad_D2.0mm'.
+Info: Processing symbol 'J2:TerminalBlock:TerminalBlock_bornier-4_P5.08mm'.
+Info: Processing symbol 'U1:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical'.
+Info: Processing symbol 'U2:Motors:TB67S101ANG'.
+Info: Processing symbol 'U3:Package_DIP:Tang_Nano_9K'.
+Info: Processing symbol 'U4:LED_THT:OSL641501-ARA'.
+Info: Processing symbol 'U5:Motors:TB67S101ANG'.
+Add net Net-(C1-Pad1).
+Connected C1 pin 1 to Net-(C1-Pad1).
+Add net GND.
+Connected C1 pin 2 to GND.
+Added C2 (footprint 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm').
+Changed REF** reference designator to C2.
+Changed C2 value from C_Disc_D5.0mm_W2.5mm_P2.50mm to 0.1μ.
+Updated C2 symbol association from  to /f88607f0-b8ca-451c-9113-0f5bf3405953.
+Updated C2 properties.
+Connected C2 pin 1 to Net-(C1-Pad1).
+Connected C2 pin 2 to GND.
+Added C3 (footprint 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm').
+Changed REF** reference designator to C3.
+Changed C3 value from C_Disc_D5.0mm_W2.5mm_P2.50mm to 0.1μ.
+Updated C3 symbol association from  to /03905288-6954-4141-9c45-1c11764a1ca3.
+Updated C3 properties.
+Add net Net-(C3-Pad1).
+Connected C3 pin 1 to Net-(C3-Pad1).
+Connected C3 pin 2 to GND.
+Added C4 (footprint 'Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm').
+Changed REF** reference designator to C4.
+Changed C4 value from C_Disc_D3.8mm_W2.6mm_P2.50mm to 270p.
+Updated C4 symbol association from  to /3f9d012d-84b1-4698-b5f7-e431ed62cc93.
+Updated C4 properties.
+Add net Net-(C4-Pad1).
+Connected C4 pin 1 to Net-(C4-Pad1).
+Connected C4 pin 2 to GND.
+Added C5 (footprint 'Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm').
+Changed REF** reference designator to C5.
+Changed C5 value from C_Disc_D5.0mm_W2.5mm_P2.50mm to 0.1μ.
+Updated C5 symbol association from  to /71d9e1f5-0827-4510-b811-be115d614ba5.
+Updated C5 properties.
+Add net Net-(C5-Pad1).
+Connected C5 pin 1 to Net-(C5-Pad1).
+Connected C5 pin 2 to GND.
+Added C6 (footprint 'Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm').
+Changed REF** reference designator to C6.
+Changed C6 value from C_Disc_D3.8mm_W2.6mm_P2.50mm to 270p.
+Updated C6 symbol association from  to /ed01aafb-4cf2-4f1f-b1c7-63d4035ca6df.
+Updated C6 properties.
+Add net Net-(C6-Pad1).
+Connected C6 pin 1 to Net-(C6-Pad1).
+Connected C6 pin 2 to GND.
+Added J1 (footprint 'Connector_BarrelJack:BarrelJack_Horizontal').
+Changed REF** reference designator to J1.
+Changed J1 value from BarrelJack_Horizontal to Jack-DC.
+Updated J1 symbol association from  to /c4ef8bf0-b9fa-40d3-ad8d-56b46e78b9a1.
+Updated J1 properties.
+Connected J1 pin 1 to Net-(C1-Pad1).
+Connected J1 pin 2 to GND.
+Added J2 (footprint 'TerminalBlock:TerminalBlock_bornier-4_P5.08mm').
+Changed REF** reference designator to J2.
+Changed J2 value from TerminalBlock_bornier-4_P5.08mm to Screw_Terminal_01x04.
+Updated J2 symbol association from  to /6e56f2a7-8754-4162-80c8-542615da19fa.
+Updated J2 properties.
+Add net Net-(J2-Pad1).
+Connected J2 pin 1 to Net-(J2-Pad1).
+Add net Net-(J2-Pad2).
+Connected J2 pin 2 to Net-(J2-Pad2).
+Add net Net-(J2-Pad3).
+Connected J2 pin 3 to Net-(J2-Pad3).
+Add net Net-(J2-Pad4).
+Connected J2 pin 4 to Net-(J2-Pad4).
+Added J3 (footprint 'TerminalBlock:TerminalBlock_bornier-4_P5.08mm').
+Changed REF** reference designator to J3.
+Changed J3 value from TerminalBlock_bornier-4_P5.08mm to Screw_Terminal_01x04.
+Updated J3 symbol association from  to /cfdb3be4-9e51-4291-aaa9-423f861aa8fe.
+Updated J3 properties.
+Add net Net-(J3-Pad1).
+Connected J3 pin 1 to Net-(J3-Pad1).
+Add net Net-(J3-Pad2).
+Connected J3 pin 2 to Net-(J3-Pad2).
+Add net Net-(J3-Pad3).
+Connected J3 pin 3 to Net-(J3-Pad3).
+Add net Net-(J3-Pad4).
+Connected J3 pin 4 to Net-(J3-Pad4).
+Added J4 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical').
+Changed REF** reference designator to J4.
+Changed J4 value from PinHeader_1x04_P2.54mm_Vertical to Reserve.
+Updated J4 symbol association from  to /2bd52874-4404-4e06-8e0b-da7441e79232.
+Updated J4 properties.
+Add net /STANBY_1.
+Connected J4 pin 1 to /STANBY_1.
+Add net /VREF_1.
+Connected J4 pin 2 to /VREF_1.
+Add net /PHASEB_1.
+Connected J4 pin 3 to /PHASEB_1.
+Add net /PHASEA_1.
+Connected J4 pin 4 to /PHASEA_1.
+Added J5 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical').
+Changed REF** reference designator to J5.
+Changed J5 value from PinHeader_1x04_P2.54mm_Vertical to Reserve.
+Updated J5 symbol association from  to /15a4aca8-8327-4160-a767-e7952a84c3b4.
+Updated J5 properties.
+Add net /STANBY_2.
+Connected J5 pin 1 to /STANBY_2.
+Add net /VREF_2.
+Connected J5 pin 2 to /VREF_2.
+Add net /PHASEB_2.
+Connected J5 pin 3 to /PHASEB_2.
+Add net /PHASEA_2.
+Connected J5 pin 4 to /PHASEA_2.
+Added J6 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical').
+Changed REF** reference designator to J6.
+Changed J6 value from PinHeader_1x02_P2.54mm_Vertical to Reserve.
+Updated J6 symbol association from  to /245cba81-c999-4f09-adfa-29dd70da9f7e.
+Updated J6 properties.
+Add net Net-(J6-Pad1).
+Connected J6 pin 1 to Net-(J6-Pad1).
+Add net Net-(J6-Pad2).
+Connected J6 pin 2 to Net-(J6-Pad2).
+Added J7 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical').
+Changed REF** reference designator to J7.
+Changed J7 value from PinHeader_1x04_P2.54mm_Vertical to Reserve_PinHeader.
+Updated J7 symbol association from  to /d103ad51-1bb4-491e-8354-64c6e089e9f1.
+Updated J7 properties.
+Add net Net-(J7-Pad1).
+Connected J7 pin 1 to Net-(J7-Pad1).
+Add net Net-(J7-Pad2).
+Connected J7 pin 2 to Net-(J7-Pad2).
+Add net Net-(J7-Pad3).
+Connected J7 pin 3 to Net-(J7-Pad3).
+Add net Net-(J7-Pad4).
+Connected J7 pin 4 to Net-(J7-Pad4).
+Added R1 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R1.
+Changed R1 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 5.1k.
+Updated R1 symbol association from  to /02021ba7-4d1a-4846-a4b4-00321b415f7f.
+Updated R1 properties.
+Connected R1 pin 1 to Net-(C3-Pad1).
+Connected R1 pin 2 to Net-(C4-Pad1).
+Added R2 (footprint 'Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal').
+Changed REF** reference designator to R2.
+Changed R2 value from R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal to 0.22.
+Updated R2 symbol association from  to /e506dbf7-f368-4b31-b332-791a536c5ddc.
+Updated R2 properties.
+Connected R2 pin 1 to Net-(C1-Pad1).
+Add net Net-(R2-Pad2).
+Connected R2 pin 2 to Net-(R2-Pad2).
+Added R3 (footprint 'Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal').
+Changed REF** reference designator to R3.
+Changed R3 value from R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal to 0.22.
+Updated R3 symbol association from  to /fe3d4578-0dfd-4336-86c5-0e51ed900e50.
+Updated R3 properties.
+Add net Net-(R3-Pad1).
+Connected R3 pin 1 to Net-(R3-Pad1).
+Connected R3 pin 2 to Net-(C1-Pad1).
+Added R4 (footprint 'Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal').
+Changed REF** reference designator to R4.
+Changed R4 value from R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal to 5.1k.
+Updated R4 symbol association from  to /ace3803d-3737-46c9-af27-dd8dd29ce29b.
+Updated R4 properties.
+Connected R4 pin 1 to Net-(C5-Pad1).
+Connected R4 pin 2 to Net-(C6-Pad1).
+Added R5 (footprint 'Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal').
+Changed REF** reference designator to R5.
+Changed R5 value from R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal to 0.22.
+Updated R5 symbol association from  to /1021c236-df86-4235-8f73-6637bea80569.
+Updated R5 properties.
+Connected R5 pin 1 to Net-(C1-Pad1).
+Add net Net-(R5-Pad2).
+Connected R5 pin 2 to Net-(R5-Pad2).
+Added R6 (footprint 'Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal').
+Changed REF** reference designator to R6.
+Changed R6 value from R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal to 0.22.
+Updated R6 symbol association from  to /4b91168f-7f0e-4cc2-9d41-9a841282bb5c.
+Updated R6 properties.
+Add net Net-(R6-Pad1).
+Connected R6 pin 1 to Net-(R6-Pad1).
+Connected R6 pin 2 to Net-(C1-Pad1).
+Added SW1 (footprint 'Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm').
+Changed REF** reference designator to SW1.
+Changed SW1 value from RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm to RotaryEncoder.
+Updated SW1 symbol association from  to /de986ad9-2077-4374-9035-245917b4b7a6.
+Updated SW1 properties.
+Add net /A_1.
+Connected SW1 pin A to /A_1.
+Add net /B_1.
+Connected SW1 pin B to /B_1.
+Connected SW1 pin C to GND.
+Add net Net-(SW1-PadS1).
+Connected SW1 pin S1 to Net-(SW1-PadS1).
+Connected SW1 pin S2 to GND.
+Added SW2 (footprint 'Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm').
+Changed REF** reference designator to SW2.
+Changed SW2 value from RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm to RotaryEncoder.
+Updated SW2 symbol association from  to /266f7da2-d095-4158-b55b-54efc0936b08.
+Updated SW2 properties.
+Add net /A_2.
+Connected SW2 pin A to /A_2.
+Add net /B_2.
+Connected SW2 pin B to /B_2.
+Connected SW2 pin C to GND.
+Add net Net-(SW2-PadS1).
+Connected SW2 pin S1 to Net-(SW2-PadS1).
+Connected SW2 pin S2 to GND.
+Added SW3 (footprint 'Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm').
+Changed REF** reference designator to SW3.
+Changed SW3 value from SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm to SW_DIP_x08.
+Updated SW3 symbol association from  to /0aaa49ea-91cb-46ee-9047-c501634b853b.
+Updated SW3 properties.
+Add net Net-(SW3-Pad1).
+Connected SW3 pin 1 to Net-(SW3-Pad1).
+Add net Net-(SW3-Pad2).
+Connected SW3 pin 2 to Net-(SW3-Pad2).
+Add net Net-(SW3-Pad3).
+Connected SW3 pin 3 to Net-(SW3-Pad3).
+Add net Net-(SW3-Pad4).
+Connected SW3 pin 4 to Net-(SW3-Pad4).
+Add net Net-(SW3-Pad5).
+Connected SW3 pin 5 to Net-(SW3-Pad5).
+Add net Net-(SW3-Pad6).
+Connected SW3 pin 6 to Net-(SW3-Pad6).
+Add net Net-(SW3-Pad7).
+Connected SW3 pin 7 to Net-(SW3-Pad7).
+Add net Net-(SW3-Pad8).
+Connected SW3 pin 8 to Net-(SW3-Pad8).
+Connected SW3 pin 9 to GND.
+Connected SW3 pin 10 to GND.
+Connected SW3 pin 11 to GND.
+Connected SW3 pin 12 to GND.
+Connected SW3 pin 13 to GND.
+Connected SW3 pin 14 to GND.
+Connected SW3 pin 15 to GND.
+Connected SW3 pin 16 to GND.
+Added TP1 (footprint 'TestPoint:TestPoint_Pad_D2.0mm').
+Changed REF** reference designator to TP1.
+Changed TP1 value from TestPoint_Pad_D2.0mm to TestPoint.
+Updated TP1 symbol association from  to /b4b6c71b-c8e5-4172-96e6-29540545f271.
+Updated TP1 properties.
+Removed TP1 'exclude from BOM' fabrication attribute.
+Add net Net-(TP1-Pad1).
+Connected TP1 pin 1 to Net-(TP1-Pad1).
+Added TP2 (footprint 'TestPoint:TestPoint_Pad_D2.0mm').
+Changed REF** reference designator to TP2.
+Changed TP2 value from TestPoint_Pad_D2.0mm to TestPoint.
+Updated TP2 symbol association from  to /246ca8c3-d91c-4b19-a6a8-48a0cdc00a94.
+Updated TP2 properties.
+Removed TP2 'exclude from BOM' fabrication attribute.
+Add net Net-(TP2-Pad1).
+Connected TP2 pin 1 to Net-(TP2-Pad1).
+Added C1 (footprint 'Capacitor_THT:CP_Radial_D5.0mm_P2.50mm').
+Added U1 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical').
+Changed REF** reference designator to U1.
+Changed U1 value from PinHeader_1x04_P2.54mm_Vertical to BP5293-5.
+Updated U1 symbol association from  to /0555d286-6d86-4552-94e8-d32676b671db.
+Updated U1 properties.
+Connected U1 pin 1 to Net-(C1-Pad1).
+Connected U1 pin 2 to GND.
+Add net +5V.
+Connected U1 pin 3 to +5V.
+Changed REF** reference designator to C1.
+Added U2 (footprint 'Motors:TB67S101ANG').
+Changed REF** reference designator to U2.
+Updated U2 symbol association from  to /3b4c24e8-0a83-40bc-8bf5-8923992c8f7f.
+Updated U2 properties.
+Connected U2 pin 1 to GND.
+Connected U2 pin 2 to Net-(J2-Pad3).
+Connected U2 pin 3 to GND.
+Connected U2 pin 4 to Net-(J2-Pad4).
+Connected U2 pin 5 to Net-(R2-Pad2).
+Connected U2 pin 6 to GND.
+Connected U2 pin 7 to Net-(C1-Pad1).
+Connected U2 pin 8 to Net-(C3-Pad1).
+Connected U2 pin 9 to /VREF_1.
+Connected U2 pin 10 to /VREF_1.
+Connected U2 pin 11 to Net-(C4-Pad1).
+Connected U2 pin 12 to Net-(C3-Pad1).
+Connected U2 pin 13 to Net-(C3-Pad1).
+Connected U2 pin 14 to /PHASEA_1.
+Connected U2 pin 15 to /PHASEB_1.
+Connected U2 pin 16 to Net-(C3-Pad1).
+Connected U2 pin 17 to Net-(C3-Pad1).
+Connected U2 pin 18 to /STANBY_1.
+Connected U2 pin 19 to GND.
+Connected U2 pin 20 to Net-(R3-Pad1).
+Connected U2 pin 21 to Net-(J2-Pad2).
+Connected U2 pin 22 to GND.
+Connected U2 pin 23 to Net-(J2-Pad1).
+Connected U2 pin 24 to GND.
+Changed C1 value from CP_Radial_D5.0mm_P2.50mm to 100μ.
+Added U3 (footprint 'Package_DIP:Tang_Nano_9K').
+Changed REF** reference designator to U3.
+Changed U3 value from Tang Nano 9K to TangNano9K.
+Updated U3 symbol association from  to /b07c7a86-f5e1-435b-90e8-dd8e473e3c0e.
+Updated U3 properties.
+Connected U3 pin 1 to /PHASEA_1.
+Connected U3 pin 2 to /PHASEB_1.
+Connected U3 pin 3 to /VREF_1.
+Connected U3 pin 4 to /STANBY_1.
+Connected U3 pin 5 to /PHASEA_2.
+Connected U3 pin 6 to /PHASEB_2.
+Connected U3 pin 7 to /VREF_2.
+Connected U3 pin 8 to /STANBY_2.
+Connected U3 pin 9 to Net-(J6-Pad2).
+Add net Net-(U3-Pad10).
+Connected U3 pin 10 to Net-(U3-Pad10).
+Add net Net-(U3-Pad11).
+Connected U3 pin 11 to Net-(U3-Pad11).
+Add net Net-(U3-Pad12).
+Connected U3 pin 12 to Net-(U3-Pad12).
+Add net Net-(U3-Pad13).
+Connected U3 pin 13 to Net-(U3-Pad13).
+Add net Net-(U3-Pad14).
+Connected U3 pin 14 to Net-(U3-Pad14).
+Add net Net-(U3-Pad15).
+Connected U3 pin 15 to Net-(U3-Pad15).
+Add net Net-(U3-Pad16).
+Connected U3 pin 16 to Net-(U3-Pad16).
+Add net Net-(U3-Pad17).
+Connected U3 pin 17 to Net-(U3-Pad17).
+Connected U3 pin 18 to /A_2.
+Connected U3 pin 19 to Net-(SW2-PadS1).
+Connected U3 pin 20 to /B_2.
+Connected U3 pin 21 to Net-(J6-Pad1).
+Connected U3 pin 22 to /A_1.
+Connected U3 pin 23 to Net-(SW1-PadS1).
+Connected U3 pin 24 to /B_1.
+Connected U3 pin 25 to Net-(TP2-Pad1).
+Connected U3 pin 26 to GND.
+Connected U3 pin 27 to Net-(J7-Pad1).
+Connected U3 pin 28 to Net-(J7-Pad2).
+Connected U3 pin 29 to Net-(J7-Pad3).
+Connected U3 pin 30 to Net-(J7-Pad4).
+Connected U3 pin 31 to +5V.
+Add net Net-(U3-Pad32).
+Connected U3 pin 32 to Net-(U3-Pad32).
+Add net Net-(U3-Pad33).
+Connected U3 pin 33 to Net-(U3-Pad33).
+Add net Net-(U3-Pad34).
+Connected U3 pin 34 to Net-(U3-Pad34).
+Add net Net-(U3-Pad35).
+Connected U3 pin 35 to Net-(U3-Pad35).
+Add net Net-(U3-Pad36).
+Connected U3 pin 36 to Net-(U3-Pad36).
+Add net Net-(U3-Pad37).
+Connected U3 pin 37 to Net-(U3-Pad37).
+Add net Net-(U3-Pad38).
+Connected U3 pin 38 to Net-(U3-Pad38).
+Add net Net-(U3-Pad39).
+Connected U3 pin 39 to Net-(U3-Pad39).
+Connected U3 pin 40 to Net-(SW3-Pad8).
+Connected U3 pin 41 to Net-(SW3-Pad7).
+Connected U3 pin 42 to Net-(SW3-Pad6).
+Connected U3 pin 43 to Net-(SW3-Pad5).
+Connected U3 pin 44 to Net-(SW3-Pad4).
+Connected U3 pin 45 to Net-(SW3-Pad3).
+Connected U3 pin 46 to Net-(SW3-Pad2).
+Connected U3 pin 47 to Net-(SW3-Pad1).
+Connected U3 pin 48 to Net-(TP1-Pad1).
+Updated C1 symbol association from  to /1b203025-f9a0-4031-a2eb-97e7f134dcdb.
+Added U4 (footprint 'LED_THT:OSL641501-ARA').
+Changed REF** reference designator to U4.
+Changed U4 value from OSL641501-ARA to OSL641505-BB.
+Updated U4 symbol association from  to /467c1fba-20c5-4c47-a5bb-8b74d3cc9c21.
+Updated U4 properties.
+Connected U4 pin 1 to Net-(U3-Pad32).
+Connected U4 pin 2 to Net-(U3-Pad33).
+Connected U4 pin 3 to Net-(U3-Pad34).
+Connected U4 pin 4 to Net-(U3-Pad35).
+Connected U4 pin 5 to Net-(U3-Pad36).
+Connected U4 pin 6 to Net-(U3-Pad37).
+Connected U4 pin 7 to Net-(U3-Pad38).
+Connected U4 pin 8 to Net-(U3-Pad39).
+Connected U4 pin 9 to Net-(U3-Pad10).
+Connected U4 pin 10 to Net-(U3-Pad11).
+Connected U4 pin 11 to Net-(U3-Pad12).
+Connected U4 pin 12 to Net-(U3-Pad13).
+Connected U4 pin 13 to Net-(U3-Pad14).
+Connected U4 pin 14 to Net-(U3-Pad15).
+Connected U4 pin 15 to Net-(U3-Pad16).
+Connected U4 pin 16 to Net-(U3-Pad17).
+Updated C1 properties.
+Added U5 (footprint 'Motors:TB67S101ANG').
+Changed REF** reference designator to U5.
+Updated U5 symbol association from  to /b5d87323-6270-4b62-ba18-02f5c393e6db.
+Updated U5 properties.
+Connected U5 pin 1 to GND.
+Connected U5 pin 2 to Net-(J3-Pad3).
+Connected U5 pin 3 to GND.
+Connected U5 pin 4 to Net-(J3-Pad4).
+Connected U5 pin 5 to Net-(R5-Pad2).
+Connected U5 pin 6 to GND.
+Connected U5 pin 7 to Net-(C1-Pad1).
+Connected U5 pin 8 to Net-(C5-Pad1).
+Connected U5 pin 9 to /VREF_2.
+Connected U5 pin 10 to /VREF_2.
+Connected U5 pin 11 to Net-(C6-Pad1).
+Connected U5 pin 12 to Net-(C5-Pad1).
+Connected U5 pin 13 to Net-(C5-Pad1).
+Connected U5 pin 14 to /PHASEA_2.
+Connected U5 pin 15 to /PHASEB_2.
+Connected U5 pin 16 to Net-(C5-Pad1).
+Connected U5 pin 17 to Net-(C5-Pad1).
+Connected U5 pin 18 to /STANBY_2.
+Connected U5 pin 19 to GND.
+Connected U5 pin 20 to Net-(R6-Pad1).
+Connected U5 pin 21 to Net-(J3-Pad2).
+Connected U5 pin 22 to GND.
+Connected U5 pin 23 to Net-(J3-Pad1).
+Connected U5 pin 24 to GND.
+Warning: No net found for symbol SW1 pin MP.
+Warning: No net found for symbol J1 pin 3.
+Warning: No net found for symbol SW1 pin MP.
+Warning: No net found for symbol SW2 pin MP.
+Warning: No net found for symbol SW2 pin MP.
+Warning: No net found for symbol U1 pin 4.
+
+
+Info: Total warnings: 0, errors: 0.
