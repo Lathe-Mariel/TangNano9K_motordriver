@@ -2,7 +2,7 @@
 MotorDriver board for TangNano9K(Sipeed)
 
 Tang Nano 9K(Sipeed)用のマザーボード（拡張ボード）です．  
-This is mother board for Tang Nano 9K(Sipeed).
+This is mother board for Tang Nano 9K(Sipeed).  
 オープンソースの回路CADである，KiCAD のプロジェクトになっています．  
 These files were made by KiCAD.
 
