@@ -1,4 +1,4 @@
-20591770596218315
+20596788065074513
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86463,3 +86463,24 @@ varistor
 0
 2
 2
+samactech
+DIPS762W50P254L1300H720Q10N
+LA-401MN
+Display
+0
+10
+10
+samactech
+DIPS1524W51P254L1270H825Q10N
+DIP-10
+Display
+0
+10
+10
+samactech
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8

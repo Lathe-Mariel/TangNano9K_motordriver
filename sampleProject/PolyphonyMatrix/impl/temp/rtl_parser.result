@@ -1,43 +1,43 @@
 [
  {
-  "InstFile" : "D:/Git/gowin/PolyphonyMatrix/src/top.sv",
+  "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/PolyphonyMatrix/src/top.sv",
   "InstLine" : 3,
   "InstName" : "top",
-  "ModuleFile" : "D:/Git/gowin/PolyphonyMatrix/src/top.sv",
+  "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/PolyphonyMatrix/src/top.sv",
   "ModuleLine" : 3,
   "ModuleName" : "top",
   "SubInsts" : [
    {
-    "InstFile" : "D:/Git/gowin/PolyphonyMatrix/src/top.sv",
+    "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/PolyphonyMatrix/src/top.sv",
     "InstLine" : 86,
     "InstName" : "inst_0",
-    "ModuleFile" : "D:/Git/gowin/PolyphonyMatrix/src/top.sv",
+    "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/PolyphonyMatrix/src/top.sv",
     "ModuleLine" : 130,
     "ModuleName" : "matrix_led_driver",
     "SubInsts" : [
      {
-      "InstFile" : "D:/Git/gowin/PolyphonyMatrix/src/top.sv",
+      "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/PolyphonyMatrix/src/top.sv",
       "InstLine" : 159,
       "InstName" : "inst_0",
-      "ModuleFile" : "D:/Git/gowin/PolyphonyMatrix/src/top.sv",
+      "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/PolyphonyMatrix/src/top.sv",
       "ModuleLine" : 166,
       "ModuleName" : "timer"
      }
     ]
    },
    {
-    "InstFile" : "D:/Git/gowin/PolyphonyMatrix/src/top.sv",
+    "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/PolyphonyMatrix/src/top.sv",
     "InstLine" : 104,
     "InstName" : "inst_2",
-    "ModuleFile" : "D:/Git/gowin/PolyphonyMatrix/src/LEDMatrixAB_m.v",
+    "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/PolyphonyMatrix/src/LEDMatrixAB_m.v",
     "ModuleLine" : 1,
     "ModuleName" : "LEDMatrixAB_m"
    },
    {
-    "InstFile" : "D:/Git/gowin/PolyphonyMatrix/src/top.sv",
+    "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/PolyphonyMatrix/src/top.sv",
     "InstLine" : 119,
     "InstName" : "inst_1",
-    "ModuleFile" : "D:/Git/gowin/PolyphonyMatrix/src/top.sv",
+    "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/PolyphonyMatrix/src/top.sv",
     "ModuleLine" : 166,
     "ModuleName" : "timer"
    }
