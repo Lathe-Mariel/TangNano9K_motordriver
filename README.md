@@ -39,6 +39,11 @@ DC-DC converter can be installed on the board.
 - JP5 ～ JP8　　ショートさせるとFPGAとINA1～INB2を接続
 - JP9　　JP5の線を7セグLEDのコモンに接続
 
+## 部品
+　思いつく限り列挙．抜けがあるかもしれない．  
+ ロータリエンコーダのみ，押しスイッチ付きのものが秋月さんに見当たらなかったので，リストに入っていません．  
+ ![](doc/aki.png "参考部品リスト")
+ 
  
  （1）TB67S101ANGデータシート  
  https://toshiba.semicon-storage.com/jp/semiconductor/product/motor-driver-ics/stepping-motor-driver-ics/detail.TB67S101ANG.html
