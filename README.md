@@ -31,6 +31,7 @@ DC-DC converter can be installed on the board.
  　2ch目で1-2相励磁やW1-2相励磁を行いたい場合，ソルダジャンパJP5～JP8をショートさせます．するとINA1～INB2がFPGAに接続されるので，FPGAからHi/Lowを制御できます．  
 ![](doc/jp5-8.png "ソルダジャンパで選択する")  
   FPGA側では，これらの端子をロータリエンコーダの2ch目と共有しています．従って，モータドライバの2ch目の1-2相励磁選択と，ロータリエンコーダの2ch目は排他利用となります．  
+  
 ![](doc/schematics_jp.png "JP1～JP4またはJP5～JP8のどちらかのセットをショートさせる")
 - JP1 ～ JP4　　ショートさせるとINA1～INB2をTB67S101ANGのVCCピンと接続
 - JP5 ～ JP8　　ショートさせるとFPGAとINA1～INB2を接続
