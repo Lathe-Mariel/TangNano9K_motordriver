@@ -10,7 +10,8 @@ These files were made by KiCAD.
 次の機能を実装できます．
 - ステッピングモータドライバ x2ch <TB67S101ANG(TOSHIBA)>
 - ロータリエンコーダ x2
-- 8x8 マトリクスLED <OSL641501-ARA(Optsupply)>
+- 8x8 マトリクスLED <OSL641501-BRA(Optsupply)>
+- 7セグメントLED
 - DIP Switch(8ch)
 
 You can install these functions with this board.
@@ -21,4 +22,5 @@ You can install these functions with this board.
 
 ## 電源 Power supply
 ボード上にDC-DCコンバータBP5293-50(ROHM)を実装できます．  
+DC-DCコンバータには7～24Vを入力し，出力される5VをTang Nano 9Kへ供給できます．
 DC-DC converter can be installed on the board.
