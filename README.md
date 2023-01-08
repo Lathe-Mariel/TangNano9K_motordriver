@@ -18,6 +18,7 @@ You can install these functions with this board.
 - Stepper motor driver x2ch
 - Rotary encoder x2
 - 8x8 Matrix LED
+- 7segment LED
 - DIP Switch(8ch)
 
 ## 電源 Power supply
