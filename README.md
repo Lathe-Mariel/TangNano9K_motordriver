@@ -52,6 +52,13 @@ DC-DC converter can be installed on the board.
    
  ![](doc/aki.png "参考部品リスト")
  
- 
+## 機能の捕捉 Additional for Functions
+### モータドライバTB67S101ANG（TOSHIBA）
+　このICへ電流制御用のレファレンス電圧を供給する必要があります．PinはVREFA及びVREFBです．このボードではVREFAとVREFBは直結されています．これらとFPGAの27（モータドライバch1）が接続されています．FPGAからパルスのデューティで所望の電圧を送って下さい．電圧の平滑化のために，RCフィルタのパターンが実装されています．R7とC8（モータドライバch1）に適当な値のものを実装してください．  
+  
+  
+   ![](doc/schematics2.png "モータドライバのレファレンス電圧供給経路にあるRCフィルタ")
+   
+   
  （1）TB67S101ANGデータシート  
  https://toshiba.semicon-storage.com/jp/semiconductor/product/motor-driver-ics/stepping-motor-driver-ics/detail.TB67S101ANG.html
