@@ -3,6 +3,7 @@ MotorDriver board for TangNano9K(Sipeed)
 
 Tang Nano 9K(Sipeed)用のマザーボード（拡張ボード）です．  
 This is mother board for Tang Nano 9K(Sipeed).  
+  
 オープンソースの回路CADである，KiCAD のプロジェクトになっています．  
 These files were made by KiCAD.
 
@@ -23,7 +24,7 @@ You can install these functions with this board.
 
 ## 電源 Power supply
 ボード上にDC-DCコンバータBP5293-50(ROHM)を実装できます．  
-DC-DCコンバータには7～24Vを入力し，出力される5VをTang Nano 9Kへ供給できます．  
+DC-DCコンバータには7～26Vを入力し，出力される5VをTang Nano 9Kへ供給できます．  
 DC-DC converter can be installed on the board.  
 
 ## 排他利用する機能の選択
