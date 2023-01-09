@@ -26,13 +26,14 @@ You can install these functions with this board.
 DC-DCコンバータには7～26Vを入力し，出力される5VをTang Nano 9Kへ供給できます．  
 DC-DC converter can be installed on the board.  
 
-## 排他利用する機能の選択
+## 排他利用する機能の選択 Selection of exclusive functions
 　モータドライバの励磁モード選択はINA1，INA2，INB1，INB2端子で行います．  
 　2CH目（基板下側）のモータドライバは，ソルダジャンパJP1～JP4をショートすると，INA1～INB2の全てがVCCに接続され，励磁モードが2相励磁に固定されます．   
  　2ch目で1-2相励磁やW1-2相励磁を行いたい場合，ソルダジャンパJP5～JP8をショートさせます．するとINA1～INB2がFPGAに接続されるので，FPGAからHi/Lowを制御できます．  
 ![](doc/jp5-8.png "ソルダジャンパで選択する")  
   FPGA側では，これらの端子をロータリエンコーダの2ch目と共有しています．  
   従って，モータドライバの2ch目の1-2相励磁選択と，ロータリエンコーダの2ch目は排他利用となります．  
+  例えば，モータドライバを1chしか使わない場合は，JP1～JP8のソルダジャンパをオープンのまま使用します（7セグLEDを使うならJP9のみショートする）．  
   
 ![](doc/schematics_jp.png "JP1～JP4またはJP5～JP8のどちらかのセットをショートさせる")
 - JP1 ～ JP4　　ショートさせるとINA1～INB2をTB67S101ANGのVCCピンと接続
