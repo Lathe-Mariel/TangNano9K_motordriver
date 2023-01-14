@@ -60,5 +60,8 @@ DC-DC converter can be installed on the board.
    ![](doc/schematics2.png "モータドライバのレファレンス電圧供給経路にあるRCフィルタ")
    
    
+## サンプルプログラム
+`/sampleProject`にマトリクスLEDを使った時計のプロジェクトが入っています．このプロジェクトはPythonベースの高位合成ツールPolyphonyを利用しています．  
+  
  （1）TB67S101ANGデータシート  
  https://toshiba.semicon-storage.com/jp/semiconductor/product/motor-driver-ics/stepping-motor-driver-ics/detail.TB67S101ANG.html
