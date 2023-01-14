@@ -25,6 +25,8 @@ You can install these functions with this board.
 ボード上にDC-DCコンバータBP5293-50(ROHM)を実装できます．  
 DC-DCコンバータには7～26Vを入力し，出力される5VをTang Nano 9Kへ供給できます．  
 DC-DC converter can be installed on the board.  
+  
+基板上のDCジャックへ入力された電圧は，上記DC-DCコンバータとモータドライバICのモータ電源（VM）へ入力されます．
 
 ## 排他利用する機能の選択 Selection of exclusive functions
 　モータドライバの励磁モード選択はINA1，INA2，INB1，INB2端子で行います．  
