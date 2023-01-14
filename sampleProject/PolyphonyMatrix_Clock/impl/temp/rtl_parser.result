@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "D:/Git/gowin/PolyphonyMatrix/src/top.sv",
+  "InstLine" : 3,
+  "InstName" : "top",
+  "ModuleFile" : "D:/Git/gowin/PolyphonyMatrix/src/top.sv",
+  "ModuleLine" : 3,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Git/gowin/PolyphonyMatrix/src/top.sv",
+    "InstLine" : 36,
+    "InstName" : "inst_2",
+    "ModuleFile" : "D:/Git/gowin/PolyphonyMatrix/src/LEDMatrixAB_m.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "LEDMatrixAB_m"
+   },
+   {
+    "InstFile" : "D:/Git/gowin/PolyphonyMatrix/src/top.sv",
+    "InstLine" : 53,
+    "InstName" : "inst_1",
+    "ModuleFile" : "D:/Git/gowin/PolyphonyMatrix/src/top.sv",
+    "ModuleLine" : 64,
+    "ModuleName" : "timer"
+   }
+  ]
+ }
+]
