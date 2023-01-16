@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module name="top" Register="1" Lut="9">
-    <SubModule name="inst_2" Register="386" Alu="58" Lut="1378"/>
+    <SubModule name="inst_2" Register="386" Alu="58" Lut="1380"/>
     <SubModule name="inst_1" Register="25" Alu="23" Lut="9"/>
 </Module>

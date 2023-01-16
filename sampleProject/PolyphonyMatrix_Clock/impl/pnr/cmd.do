@@ -1,10 +1,11 @@
--d D:\Git\gowin\PolyphonyMatrix\impl\gwsynthesis\LEDMatrix.vg
+-d E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\impl\gwsynthesis\LEDMatrix.vg
 -p GW1NR-9C-QFN88P-6
 -pn GW1NR-LV9QN88PC6/I5
--cst D:\Git\gowin\PolyphonyMatrix\src\top.cst
--cfg D:\Git\gowin\PolyphonyMatrix\impl\pnr\device.cfg
+-cst E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\src\top.cst
+-cfg E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\impl\pnr\device.cfg
 -bit
 -tr
 -ph
 -timing
 -cst_error
+-route_maxfan 23
