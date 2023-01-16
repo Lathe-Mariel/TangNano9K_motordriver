@@ -1,0 +1,17 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Lite</Mode>
+    <AoCore_Lite index="0" sample_clock="clk" trig_type="0" capture_amount="16384" implemention="0" input_register_enabled="0" capture_init_data_enabled="0" module_name="top">
+        <SignalList>
+            <Signal>inst/m_thirdCircuit_c8_state.Parallel_m_thirdCircuit_c8_b1_INIT</Signal>
+            <Signal>inst/m_thirdCircuit_c8_state.Parallel_m_thirdCircuit_c8_L1_while2_S0</Signal>
+            <Signal>inst/m_thirdCircuit_c8_state.Parallel_m_thirdCircuit_c8_L1_while2_S1</Signal>
+            <Signal>inst/m_thirdCircuit_c8_state.Parallel_m_thirdCircuit_c8_L1_b5_S0</Signal>
+            <Signal>inst/m_thirdCircuit_c8_t546</Signal>
+            <Signal>oneSecondClk</Signal>
+            <Signal>Overflow</Signal>
+        </SignalList>
+    </AoCore_Lite>
+    <GAO_ID>0000011011111010</GAO_ID>
+</GAO_CONFIG>

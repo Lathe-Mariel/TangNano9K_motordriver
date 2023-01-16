@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/rotate.sv",
+  "InstLine" : 3,
+  "InstName" : "top",
+  "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/rotate.sv",
+  "ModuleLine" : 3,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/rotate.sv",
+    "InstLine" : 30,
+    "InstName" : "timer_i",
+    "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/rotate.sv",
+    "ModuleLine" : 58,
+    "ModuleName" : "timer"
+   }
+  ]
+ }
+]

@@ -1,0 +1,86 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v'
+WARN  (EX2478) : Non-net output port 'boardLED1' cannot be initialized at declaration in SystemVerilog mode("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":8)
+WARN  (EX2478) : Non-net output port 'col' cannot be initialized at declaration in SystemVerilog mode("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":9)
+WARN  (EX2478) : Non-net output port 'row' cannot be initialized at declaration in SystemVerilog mode("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":10)
+Analyzing Verilog file 'D:\Git\gowin\PolyphonyMatrix\src\top.sv'
+Compiling module 'top'("D:\Git\gowin\PolyphonyMatrix\src\top.sv":3)
+Compiling module 'LEDMatrixAB_m'("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":1)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":490)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":491)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":492)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":493)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":494)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":495)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":496)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":497)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":676)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":677)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":678)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":679)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":680)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":681)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":682)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":683)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":684)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":685)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":686)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":687)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":688)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":689)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":691)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":692)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":693)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":694)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":695)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":696)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":697)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":698)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":699)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 1("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":700)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":701)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":702)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":703)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":704)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":710)
+WARN  (EX3696) : Use of 'FONT_DATA' without initialization in static subprogram 'FONT_DATA' may create unintended latch behavior("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":316)
+WARN  (EX2420) : Latch inferred for net 'FONT_DATA[31]'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":316)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":721)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":722)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":1017)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":1050)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":1083)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":1116)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":1149)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":1209)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\Git\gowin\PolyphonyMatrix\src\LEDMatrixAB_m.v":1263)
+Compiling module 'timer(COUNT_MAX=13500000)'("D:\Git\gowin\PolyphonyMatrix\src\top.sv":64)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("D:\Git\gowin\PolyphonyMatrix\src\top.sv":78)
+WARN  (EX3791) : Expression size 2 truncated to fit in target size 1("D:\Git\gowin\PolyphonyMatrix\src\top.sv":59)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input sw1 is unused("D:\Git\gowin\PolyphonyMatrix\src\top.sv":6)
+WARN  (CV0016) : Input sw2 is unused("D:\Git\gowin\PolyphonyMatrix\src\top.sv":7)
+WARN  (CV0016) : Input rotary1_SW is unused("D:\Git\gowin\PolyphonyMatrix\src\top.sv":10)
+WARN  (CV0016) : Input rotary2_a is unused("D:\Git\gowin\PolyphonyMatrix\src\top.sv":11)
+WARN  (CV0016) : Input rotary2_b is unused("D:\Git\gowin\PolyphonyMatrix\src\top.sv":12)
+WARN  (CV0016) : Input rotary2_SW is unused("D:\Git\gowin\PolyphonyMatrix\src\top.sv":13)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\Git\gowin\PolyphonyMatrix\impl\gwsynthesis\LEDMatrix.vg" completed
+[100%] Generate report file "D:\Git\gowin\PolyphonyMatrix\impl\gwsynthesis\LEDMatrix_syn.rpt.html" completed
+GowinSynthesis finish
