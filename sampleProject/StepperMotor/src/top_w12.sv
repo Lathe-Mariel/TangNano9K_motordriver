@@ -1,6 +1,6 @@
 `default_nettype none
 
-module Motor_w12 #(
+module top_w12 #(
   // Millisecond per step
   parameter MS_PER_STEP = 100
 ) (
@@ -18,40 +18,33 @@ module Motor_w12 #(
   output wire [5:0] boardLED
 );
 
-  assign ch1_INB1 = 1;
-  assign ch1_INB2 = 1;
-  assign ch1_INA1 = 1;
-  assign ch1_INA2 = 1;
-  assign ch1_STANBY = 1;
-  reg[2:0] pwm_duty = 0;
+  logic motor_pulse;
+
+  Motor_w12 inst(
+  .clk(clk),
+  .phase_a(ch1_phase_a),
+  .phase_b(ch1_phase_b),
+  .INB1(ch1_INB1),
+  .INB2(ch1_INB2),
+  .INA1(ch1_INA1),
+  .INA2(ch1_INA2),
+  .STANBY(ch1_STANBY),
+  .VREF_PWM(ch1_VREF),
+  .rotate_pulse(motor_pulse),
+  .direction(1'b1),
+  .module_enable(1'b1),
+  .vref_level(4'd3)
+  );
+
+  always @(posedge clk)begin
+    if(overflow)begin
+      motor_pulse <= motor_pulse + 1'b1;
+    end
+  end
 
   // Timer
   logic overflow;
   timer #(MS_PER_STEP * 4000) timer_i (.*);
-
-  // Phase counter
-  logic [1:0] phase_counter = 'd0;
-  always_ff @ (posedge clk) begin
-    pwm_duty <= pwm_duty + 2'd1;
-    if(pwm_duty <= 2)begin
-      ch1_VREF <= 1'b1;
-    end else begin
-      ch1_VREF <= 1'b0;
-    end
-    if (overflow) begin
-      phase_counter <= phase_counter + 'd1;
-    end
-  end
-
-  // Phase output
-  always_comb begin
-    case (phase_counter)
-      0: begin ch1_phase_a = 'b1; ch1_phase_b = 'b1; end
-      1: begin ch1_phase_a = 'b0; ch1_phase_b = 'b1; end
-      2: begin ch1_phase_a = 'b0; ch1_phase_b = 'b0; end
-      3: begin ch1_phase_a = 'b1; ch1_phase_b = 'b0; end
-    endcase
-  end
 
 endmodule
 
