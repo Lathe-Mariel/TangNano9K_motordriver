@@ -1,14 +1,14 @@
 GowinSynthesis start
 Running parser ...
-Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\top.sv'
-Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\Parallel_m.v'
-WARN  (EX2478) : Non-net output port 'boardLED3' cannot be initialized at declaration in SystemVerilog mode("D:\Git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\Parallel_m.v":5)
-WARN  (EX2478) : Non-net output port 'boardLED2' cannot be initialized at declaration in SystemVerilog mode("D:\Git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\Parallel_m.v":6)
-WARN  (EX2478) : Non-net output port 'boardLED1' cannot be initialized at declaration in SystemVerilog mode("D:\Git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\Parallel_m.v":8)
-Compiling module 'top'("D:\Git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\top.sv":3)
-Compiling module 'Parallel_m'("D:\Git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\Parallel_m.v":1)
-Compiling module 'timer(COUNT_MAX=13500000)'("D:\Git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\top.sv":50)
-WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("D:\Git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\top.sv":64)
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\Parallel_m.v'
+WARN  (EX2478) : Non-net output port 'boardLED3' cannot be initialized at declaration in SystemVerilog mode("E:\git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\Parallel_m.v":5)
+WARN  (EX2478) : Non-net output port 'boardLED2' cannot be initialized at declaration in SystemVerilog mode("E:\git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\Parallel_m.v":6)
+WARN  (EX2478) : Non-net output port 'boardLED1' cannot be initialized at declaration in SystemVerilog mode("E:\git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\Parallel_m.v":8)
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\top.sv'
+Compiling module 'top'("E:\git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\top.sv":3)
+Compiling module 'Parallel_m'("E:\git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\Parallel_m.v":1)
+Compiling module 'timer(COUNT_MAX=13500000)'("E:\git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\top.sv":50)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("E:\git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\top.sv":64)
 NOTE  (EX0101) : Current top module is "top"
 [5%] Running netlist conversion ...
 Running device independent optimization ...
@@ -26,6 +26,6 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
-[95%] Generate netlist file "D:\Git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\impl\gwsynthesis\Parallel.vg" completed
-[100%] Generate report file "D:\Git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\impl\gwsynthesis\Parallel_syn.rpt.html" completed
+[95%] Generate netlist file "E:\git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\impl\gwsynthesis\Parallel.vg" completed
+[100%] Generate report file "E:\git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\impl\gwsynthesis\Parallel_syn.rpt.html" completed
 GowinSynthesis finish

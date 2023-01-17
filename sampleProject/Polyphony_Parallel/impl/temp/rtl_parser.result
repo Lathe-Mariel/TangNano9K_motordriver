@@ -1,26 +1,26 @@
 [
  {
-  "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/Polyphony_Parallel/src/top.sv",
+  "InstFile" : "E:/git/TangNano9K_motordriver/sampleProject/Polyphony_Parallel/src/top.sv",
   "InstLine" : 3,
   "InstName" : "top",
-  "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/Polyphony_Parallel/src/top.sv",
+  "ModuleFile" : "E:/git/TangNano9K_motordriver/sampleProject/Polyphony_Parallel/src/top.sv",
   "ModuleLine" : 3,
   "ModuleName" : "top",
   "SubInsts" : [
    {
-    "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/Polyphony_Parallel/src/top.sv",
+    "InstFile" : "E:/git/TangNano9K_motordriver/sampleProject/Polyphony_Parallel/src/top.sv",
     "InstLine" : 16,
     "InstName" : "inst",
-    "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/Polyphony_Parallel/src/Parallel_m.v",
+    "ModuleFile" : "E:/git/TangNano9K_motordriver/sampleProject/Polyphony_Parallel/src/Parallel_m.v",
     "ModuleLine" : 1,
     "ModuleName" : "Parallel_m"
    },
    {
-    "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/Polyphony_Parallel/src/top.sv",
-    "InstLine" : 43,
+    "InstFile" : "E:/git/TangNano9K_motordriver/sampleProject/Polyphony_Parallel/src/top.sv",
+    "InstLine" : 44,
     "InstName" : "inst_1",
-    "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/Polyphony_Parallel/src/top.sv",
-    "ModuleLine" : 50,
+    "ModuleFile" : "E:/git/TangNano9K_motordriver/sampleProject/Polyphony_Parallel/src/top.sv",
+    "ModuleLine" : 51,
     "ModuleName" : "timer"
    }
   ]

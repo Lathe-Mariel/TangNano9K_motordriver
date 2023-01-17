@@ -1,10 +1,11 @@
--d D:\Git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\impl\gwsynthesis\Parallel.vg
+-d E:\git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\impl\gwsynthesis\Parallel.vg
 -p GW1NR-9C-QFN88P-6
 -pn GW1NR-LV9QN88PC6/I5
--cst D:\Git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\top.cst
--cfg D:\Git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\impl\pnr\device.cfg
+-cst E:\git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\src\top.cst
+-cfg E:\git\TangNano9K_motordriver\sampleProject\Polyphony_Parallel\impl\pnr\device.cfg
 -bit
 -tr
 -ph
 -timing
 -cst_error
+-route_maxfan 23
