@@ -1,5 +1,5 @@
-# TangNano9K_motordriverボード
-
+# TangNano9K_Motordriver Board
+  
 Tang Nano 9K(Sipeed)用のマザーボード（拡張ボード）です．  
 This is mother board for Tang Nano 9K(Sipeed).  
   
