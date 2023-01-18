@@ -1,5 +1,5 @@
-# TangNano9K_motordriverボード
-
+# TangNano9K_Motordriver Board
+  
 Tang Nano 9K(Sipeed)用のマザーボード（拡張ボード）です．  
 This is mother board for Tang Nano 9K(Sipeed).  
   
@@ -77,7 +77,11 @@ DC-DC converter can be installed on the board.
 　Gowin EDAのプロジェクトになっているので，そのままGowin EDAで読み込めます．impl/pnr/にビットストリームファイルもあるので，合成しなくてもすぐにFlash Programmerで書き込めます．  
  Verilogファイル `LEDMatrixAB_m.v` は，Polyphonyで `LEDMatrix.py` をコンパイルして生成したものです．
  
+### MotorDriver
+ モータドライバ IC TB67S101ANG(TOSHIBA) を使ってステッピングモータの2相励磁，1－2相励磁，W1-2相励磁ができます．  
  
+### Parallel
+　回路を複数のモジュールに分けて並列に実行させるサンプルです．3つのLEDを3つの回路で点滅させています．  
   
  （1）TB67S101ANGデータシート  
  https://toshiba.semicon-storage.com/jp/semiconductor/product/motor-driver-ics/stepping-motor-driver-ics/detail.TB67S101ANG.html
