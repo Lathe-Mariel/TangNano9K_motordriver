@@ -44,7 +44,7 @@ module top_w12 #(
 
   // Timer
   logic overflow;
-  timer #(MS_PER_STEP * 4000) timer_i (.*);
+  timer #(MS_PER_STEP * 500) timer_i (.*);
 
 endmodule
 

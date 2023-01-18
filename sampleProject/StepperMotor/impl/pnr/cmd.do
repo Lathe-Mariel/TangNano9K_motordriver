@@ -1,11 +1,12 @@
--d E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\gwsynthesis\StepperMotor.vg
+-d D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\gwsynthesis\StepperMotor.vg
 -p GW1NR-9C-QFN88P-6
 -pn GW1NR-LV9QN88PC6/I5
--cst E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top.cst
--cfg E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\pnr\device.cfg
+-cst D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top.cst
+-cfg D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\pnr\device.cfg
+-gao_crc 0010001111111110
 -bit
 -tr
 -ph
 -timing
 -cst_error
--route_maxfan 23
+-rtl_gao

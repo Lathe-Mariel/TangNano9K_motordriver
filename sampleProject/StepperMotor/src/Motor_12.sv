@@ -45,28 +45,60 @@ module Motor_12 #(
   // Phase output
   always_comb begin
     // phase_a
+<<<<<<< Updated upstream
     if((phase_a- 3'd2) & 3'b100) begin
+=======
+    if(phase_counter - 4'd3 > 7) begin
+      phase_a <= 0;
+    end else begin
+>>>>>>> Stashed changes
       phase_a <= 1;
     end else begin
       phase_a <= 0;
     end;
     // phase_b
+<<<<<<< Updated upstream
     if(phase_b & 3'b100) begin
+=======
+    if((phase_counter - 4'd7) > 7) begin
+>>>>>>> Stashed changes
       phase_b <= 0;
     end else begin
       phase_b <= 1;
     end;
 
     // INA1
+<<<<<<< Updated upstream
     if(((phase_a) % 4) == 1) begin
       INA1 <= 0;
+=======
+    if(((phase_counter - 1) % 8) < 3) begin
+      INA1 <= 0;
+    end else begin
+      INA1 <= 1;
+    end
+    // INA2
+    if((phase_counter % 8) == 6 || (phase_counter) & 1'b1) begin
+      INA2 <= 1;
+>>>>>>> Stashed changes
     end else begin
       INA1 <= 1;
     end
 
     // INB1
+<<<<<<< Updated upstream
     if(((phase_b) % 4) == 3) begin
       INB1 <= 0;
+=======
+    if(((phase_counter) % 8) < 5) begin
+      INB1 <= 1;
+    end else begin
+      INB1 <= 0;
+    end
+    // INB2
+    if(((phase_counter - 4) % 8) == 6 || (phase_counter - 4) & 1'b1) begin
+      INB2 <= 1;
+>>>>>>> Stashed changes
     end else begin
       INB1 <= 1;
     end

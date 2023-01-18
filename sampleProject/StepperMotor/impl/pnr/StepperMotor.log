@@ -1,7 +1,7 @@
-Reading netlist file: "E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\gwsynthesis\StepperMotor.vg"
-Parsing netlist file "E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\gwsynthesis\StepperMotor.vg" completed
+Reading netlist file: "D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\gwsynthesis\StepperMotor.vg"
+Parsing netlist file "D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\gwsynthesis\StepperMotor.vg" completed
 Processing netlist completed
-Reading constraint file: "E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top.cst"
+Reading constraint file: "D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top.cst"
 Physical Constraint parsed completed
 Running placement......
 [10%] Placement Phase 0 completed
@@ -20,10 +20,10 @@ Bitstream generation in progress......
 Bitstream generation completed
 Running power analysis......
 [100%] Power analysis completed
-Generate file "E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\pnr\StepperMotor.power.html" completed
-Generate file "E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\pnr\StepperMotor.pin.html" completed
-Generate file "E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\pnr\StepperMotor.rpt.html" completed
-Generate file "E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\pnr\StepperMotor.rpt.txt" completed
-Generate file "E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\pnr\StepperMotor.tr.html" completed
-Tue Jan 17 21:51:40 2023
+Generate file "D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\pnr\StepperMotor.power.html" completed
+Generate file "D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\pnr\StepperMotor.pin.html" completed
+Generate file "D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\pnr\StepperMotor.rpt.html" completed
+Generate file "D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\pnr\StepperMotor.rpt.txt" completed
+Generate file "D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\pnr\StepperMotor.tr.html" completed
+Wed Jan 18 01:34:58 2023
 
