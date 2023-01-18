@@ -1,6 +1,6 @@
 `default_nettype none
 
-module Motor_12 #(
+module Motor_w12 #(
 
 ) (
   input  wire       clk,
@@ -19,8 +19,6 @@ module Motor_12 #(
 );
 
   assign STANBY = module_enable;
-  assign INA2 = INA1;
-  assign INB2 = INB1;
   
   reg[3:0] vref_count = 0;
   reg[3:0] phase_counter = 0;
@@ -45,30 +43,40 @@ module Motor_12 #(
   // Phase output
   always_comb begin
     // phase_a
-    if((phase_a- 3'd2) & 3'b100) begin
-      phase_a <= 1;
-    end else begin
+    if(phase_a-4'd3 > 7) begin
       phase_a <= 0;
+    end else begin
+      phase_a <= 1;
     end;
     // phase_b
-    if(phase_b & 3'b100) begin
+    if((phase_b-4'd7) > 7) begin
       phase_b <= 0;
     end else begin
       phase_b <= 1;
     end;
-
     // INA1
-    if(((phase_a) % 4) == 1) begin
-      INA1 <= 0;
-    end else begin
+    if(((phase_a-1) % 8) < 4) begin
       INA1 <= 1;
-    end
-
-    // INB1
-    if(((phase_b) % 4) == 3) begin
-      INB1 <= 0;
     end else begin
+      INA1 <= 0;
+    end
+    // INA2
+    if(((phase_a) % 8) == 6 || (phase_a) & 1'b1) begin
+      INA2 <= 1;
+    end else begin
+      INA2 <= 0;
+    end
+    // INB1
+    if(((phase_b-1) % 8) < 4) begin
       INB1 <= 1;
+    end else begin
+      INB1 <= 0;
+    end
+    // INB2
+    if(((phase_b ) % 8) == 6 || (phase_b) & 1'b1) begin
+      INB2 <= 1;
+    end else begin
+      INB2 <= 0;
     end
   end
 

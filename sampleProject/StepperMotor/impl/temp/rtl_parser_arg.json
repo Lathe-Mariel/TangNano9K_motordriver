@@ -1,11 +1,15 @@
 {
  "Files" : [
   {
-   "Path" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_12.sv",
+   "Path" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
+   "Path" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_w12.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_12.sv",
    "Type" : "verilog"
   }
  ],
