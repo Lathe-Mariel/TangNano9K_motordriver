@@ -5,15 +5,15 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_2.sv",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_w12.sv",
    "Type" : "verilog"
   },
   {
    "Path" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_2.sv",
    "Type" : "verilog"
   }
  ],
