@@ -1,5 +1,5 @@
   
-## 励磁モードは3つ用意してある There're 3types of extation mode
+## 励磁モードは3つ用意してある There're 3types of excitation mode
 |File|content|
 |---|---|
 src/Motor_12.sv | 1－2相励磁　駆動モジュール  
