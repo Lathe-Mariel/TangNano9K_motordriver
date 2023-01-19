@@ -15,21 +15,85 @@ module top_w12 #(
   output logic      ch1_VREF,
   inout  wire       scl,
   inout  wire       sda,
+  input wire sw2,
   output wire [5:0] boardLED
 );
 
+
+  wire w12_ch1_phase_a;
+  wire w12_ch1_phase_b;
+  wire w12_ch1_INB1;
+  wire w12_ch1_INB2;
+  wire w12_ch1_INA1;
+  wire w12_ch1_INA2;
+  wire w12_ch1_STANBY;
+  wire w12_ch1_VREF;
+
+  wire m12_ch1_phase_a;
+  wire m12_ch1_phase_b;
+  wire m12_ch1_INB1;
+  wire m12_ch1_INB2;
+  wire m12_ch1_INA1;
+  wire m12_ch1_INA2;
+  wire m12_ch1_STANBY;
+  wire m12_ch1_VREF;
+
+  wire m2_ch1_phase_a;
+  wire m2_ch1_phase_b;
+  wire m2_ch1_INB1;
+  wire m2_ch1_INB2;
+  wire m2_ch1_INA1;
+  wire m2_ch1_INA2;
+  wire m2_ch1_STANBY;
+  wire m2_ch1_VREF;
+
+  reg[1:0] excitation_mode = 0;
+  reg[3:0] antiChatter_sw2 = 0;
+
   logic motor_pulse;
 
-  Motor_12 inst(
+  Motor_w12 inst_w12(
   .clk(clk),
-  .phase_a(ch1_phase_a),
-  .phase_b(ch1_phase_b),
-  .INB1(ch1_INB1),
-  .INB2(ch1_INB2),
-  .INA1(ch1_INA1),
-  .INA2(ch1_INA2),
-  .STANBY(ch1_STANBY),
-  .VREF_PWM(ch1_VREF),
+  .phase_a(w12_ch1_phase_a),
+  .phase_b(w12_ch1_phase_b),
+  .INB1(w12_ch1_INB1),
+  .INB2(w12_ch1_INB2),
+  .INA1(w12_ch1_INA1),
+  .INA2(w12_ch1_INA2),
+  .STANBY(w12_ch1_STANBY),
+  .VREF_PWM(w12_ch1_VREF),
+  .rotate_pulse(motor_pulse),
+  .direction(1'b1),
+  .module_enable(1'b1),
+  .vref_level(4'd3)
+  );
+
+  Motor_12 inst_12(
+  .clk(clk),
+  .phase_a(m12_ch1_phase_a),
+  .phase_b(m12_ch1_phase_b),
+  .INB1(m12_ch1_INB1),
+  .INB2(m12_ch1_INB2),
+  .INA1(m12_ch1_INA1),
+  .INA2(m12_ch1_INA2),
+  .STANBY(m12_ch1_STANBY),
+  .VREF_PWM(m12_ch1_VREF),
+  .rotate_pulse(motor_pulse),
+  .direction(1'b1),
+  .module_enable(1'b1),
+  .vref_level(4'd3)
+  );
+
+  Motor_2 inst_2(
+  .clk(clk),
+  .phase_a(m2_ch1_phase_a),
+  .phase_b(m2_ch1_phase_b),
+  .INB1(m2_ch1_INB1),
+  .INB2(m2_ch1_INB2),
+  .INA1(m2_ch1_INA1),
+  .INA2(m2_ch1_INA2),
+  .STANBY(m2_ch1_STANBY),
+  .VREF_PWM(m2_ch1_VREF),
   .rotate_pulse(motor_pulse),
   .direction(1'b1),
   .module_enable(1'b1),
@@ -40,6 +104,56 @@ module top_w12 #(
     if(overflow)begin
       motor_pulse <= motor_pulse + 1'b1;
     end
+
+    if(sw2 == 0)begin
+      if(antiChatter_sw2 == 14)begin
+        excitation_mode <= excitation_mode + 2'b1;
+      end else if (antiChatter_sw2 == 15)begin
+        //stay 15 until button is released
+      end
+      else begin
+        antiChatter_sw2 <= antiChatter_sw2 + 4'b1;
+      end
+    end
+    else begin
+      antiChatter_sw2 <= 0;
+    end
+
+    case(excitation_mode)
+      0:begin
+        ch1_phase_a = w12_ch1_phase_a;
+        ch1_phase_b = w12_ch1_phase_a;
+        ch1_INB1 = w12_ch1_INB1;
+        ch1_INB2 = w12_ch1_INB2;
+        ch1_INA1 = w12_ch1_INA1;
+        ch1_INA2 = w12_ch1_INA2;
+        ch1_STANBY = w12_ch1_STANBY;
+        ch1_VREF = w12_ch1_VREF;
+      end
+      1:begin
+        ch1_phase_a = m12_ch1_phase_a;
+        ch1_phase_b = m12_ch1_phase_a;
+        ch1_INB1 = m12_ch1_INB1;
+        ch1_INB2 = m12_ch1_INB2;
+        ch1_INA1 = m12_ch1_INA1;
+        ch1_INA2 = m12_ch1_INA2;
+        ch1_STANBY = m12_ch1_STANBY;
+        ch1_VREF = m12_ch1_VREF;
+      end
+      2:begin
+        ch1_phase_a = m2_ch1_phase_a;
+        ch1_phase_b = m2_ch1_phase_a;
+        ch1_INB1 = m2_ch1_INB1;
+        ch1_INB2 = m2_ch1_INB2;
+        ch1_INA1 = m2_ch1_INA1;
+        ch1_INA2 = m2_ch1_INA2;
+        ch1_STANBY = m2_ch1_STANBY;
+        ch1_VREF = m2_ch1_VREF;
+      end
+      3:begin
+
+      end
+    endcase
   end
 
   // Timer
