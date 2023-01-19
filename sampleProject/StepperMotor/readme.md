@@ -1,4 +1,5 @@
   
+## 励磁モードは3つ用意してある There're 3types of extation mode
 |File|content|
 |---|---|
 src/Motor_12.sv | 1－2相励磁　駆動モジュール  
@@ -10,7 +11,7 @@ src/top.cst | MotorDriver Board for TangNano9K用物理制約ファイル
 3つある駆動モジュールのインターフェースは全て同じなので容易に入れ替えできます．  
 Because of same interface, You can easily swap motor driver module.
   
-### インターフェース
+### 駆動モジュールのインターフェース
 
   input  wire       clk,　　システムクロック（←トップモジュール）  
   output logic      phase_a,　　A相コイル（→ドライバIC）  
@@ -29,3 +30,10 @@ Because of same interface, You can easily swap motor driver module.
   モジュールへの指令は下段の4つの信号で行います．  
   top.svモジュールからこの4つの信号を使って指令すれば，このモジュール内でモータドライバICへ送る信号が生成されます．  
     
+
+  
+ステッピングモータの回転　1ステップを `rotate_pulse` で指令します．  
+3つある駆動モジュールそれぞれの1ステップに対する機械角は1：2：4（2相/1-2相/W1-2相）になります．  
+これらを統一するため， `Motor_2.sv` モジュール内では， `rotate_pulse` を4分周しています．  
+同様に， `Motor_12.sv` モジュール内では2分周しています．  
+これによって，どのモジュールであっても，同じ周波数のパルスを `rotate_pulse` に与えれば，モータは同じ機械角速度で回転します．  
