@@ -43,16 +43,16 @@ module Motor_w12 #(
   // Phase output
   always_comb begin
     // phase_a
-    if(phase_counter - 4'd3 > 7) begin
-      phase_a <= 0;
-    end else begin
+    if((phase_counter - 4'd3) > 7) begin
       phase_a <= 1;
+    end else begin
+      phase_a <= 0;
     end;
     // phase_b
     if((phase_counter - 4'd7) > 7) begin
-      phase_b <= 0;
-    end else begin
       phase_b <= 1;
+    end else begin
+      phase_b <= 0;
     end;
     // INA1
     if(((phase_counter -1) % 8) < 3) begin

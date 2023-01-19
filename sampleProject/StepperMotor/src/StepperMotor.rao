@@ -2,7 +2,7 @@
 <GAO_CONFIG>
     <Version>3.0</Version>
     <Mode>Lite</Mode>
-    <AoCore_Lite index="0" sample_clock="motor_pulse" trig_type="0" capture_amount="512" implemention="0" input_register_enabled="0" capture_init_data_enabled="0" module_name="top_w12">
+    <AoCore_Lite index="0" sample_clock="motor_pulse" trig_type="0" capture_amount="128" implemention="0" input_register_enabled="0" capture_init_data_enabled="0" module_name="top_w12">
         <SignalList>
             <Signal>ch1_phase_a</Signal>
             <Signal>ch1_phase_b</Signal>
@@ -15,5 +15,5 @@
             <Signal>motor_pulse</Signal>
         </SignalList>
     </AoCore_Lite>
-    <GAO_ID>0010001111111110</GAO_ID>
+    <GAO_ID>1011100111000001</GAO_ID>
 </GAO_CONFIG>

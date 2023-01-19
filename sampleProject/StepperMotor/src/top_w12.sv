@@ -48,7 +48,7 @@ module top_w12 #(
   wire m2_ch1_VREF;
 
   reg[1:0] excitation_mode = 0;
-  reg[3:0] antiChatter_sw2 = 0;
+  reg[4:0] antiChatter_sw2 = 0;
 
   logic motor_pulse;
 
@@ -100,29 +100,31 @@ module top_w12 #(
   .vref_level(4'd3)
   );
 
+  assign boardLED[1:0] = excitation_mode;
+
   always @(posedge clk)begin
     if(overflow)begin
       motor_pulse <= motor_pulse + 1'b1;
     end
 
     if(sw2 == 0)begin
-      if(antiChatter_sw2 == 14)begin
+      if(antiChatter_sw2 == 30)begin
         excitation_mode <= excitation_mode + 2'b1;
-      end else if (antiChatter_sw2 == 15)begin
-        //stay 15 until button is released
-      end
-      else begin
+        antiChatter_sw2 <= antiChatter_sw2 + 4'b1;
+      end else if(antiChatter_sw2 == 31)begin
+        // nothing to do until sw2 is pushed
+      end else begin
         antiChatter_sw2 <= antiChatter_sw2 + 4'b1;
       end
     end
     else begin
       antiChatter_sw2 <= 0;
-    end
+
 
     case(excitation_mode)
       0:begin
         ch1_phase_a = w12_ch1_phase_a;
-        ch1_phase_b = w12_ch1_phase_a;
+        ch1_phase_b = w12_ch1_phase_b;
         ch1_INB1 = w12_ch1_INB1;
         ch1_INB2 = w12_ch1_INB2;
         ch1_INA1 = w12_ch1_INA1;
@@ -132,7 +134,7 @@ module top_w12 #(
       end
       1:begin
         ch1_phase_a = m12_ch1_phase_a;
-        ch1_phase_b = m12_ch1_phase_a;
+        ch1_phase_b = m12_ch1_phase_b;
         ch1_INB1 = m12_ch1_INB1;
         ch1_INB2 = m12_ch1_INB2;
         ch1_INA1 = m12_ch1_INA1;
@@ -142,7 +144,7 @@ module top_w12 #(
       end
       2:begin
         ch1_phase_a = m2_ch1_phase_a;
-        ch1_phase_b = m2_ch1_phase_a;
+        ch1_phase_b = m2_ch1_phase_b;
         ch1_INB1 = m2_ch1_INB1;
         ch1_INB2 = m2_ch1_INB2;
         ch1_INA1 = m2_ch1_INA1;
@@ -151,9 +153,10 @@ module top_w12 #(
         ch1_VREF = m2_ch1_VREF;
       end
       3:begin
-
+        ch1_STANBY <= 0;
       end
     endcase
+    end
   end
 
   // Timer
