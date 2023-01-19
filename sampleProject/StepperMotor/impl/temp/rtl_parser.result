@@ -1,27 +1,21 @@
 [
  {
-<<<<<<< Updated upstream
-  "InstFile" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_12.sv",
+  "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_2.sv",
   "InstLine" : 3,
-  "InstName" : "Motor_12",
-  "ModuleFile" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_12.sv",
+  "InstName" : "Motor_2",
+  "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_2.sv",
   "ModuleLine" : 3,
-  "ModuleName" : "Motor_12"
+  "ModuleName" : "Motor_2"
  },
  {
-  "InstFile" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
+  "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_w12.sv",
   "InstLine" : 3,
-  "InstName" : "top_w12",
-  "ModuleFile" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
+  "InstName" : "Motor_w12",
+  "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_w12.sv",
   "ModuleLine" : 3,
-  "ModuleName" : "top_w12",
-  "SubInsts" : [
-   {
-    "InstFile" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
-    "InstLine" : 23,
-    "InstName" : "inst",
-    "ModuleFile" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_w12.sv",
-=======
+  "ModuleName" : "Motor_w12"
+ },
+ {
   "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
   "InstLine" : 3,
   "InstName" : "top_w12",
@@ -34,22 +28,14 @@
     "InstLine" : 23,
     "InstName" : "inst",
     "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_12.sv",
->>>>>>> Stashed changes
     "ModuleLine" : 3,
-    "ModuleName" : "Motor_w12"
+    "ModuleName" : "Motor_12"
    },
    {
-<<<<<<< Updated upstream
-    "InstFile" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
-    "InstLine" : 47,
-    "InstName" : "timer_i",
-    "ModuleFile" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
-=======
     "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
     "InstLine" : 47,
     "InstName" : "timer_i",
     "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
->>>>>>> Stashed changes
     "ModuleLine" : 51,
     "ModuleName" : "timer"
    }
