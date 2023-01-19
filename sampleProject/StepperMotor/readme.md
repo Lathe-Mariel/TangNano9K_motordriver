@@ -8,9 +8,11 @@ src/Motor_2.sv | 2相励磁　駆動モジュール
 src/top_w12.sv | トップモジュール  
 src/top.cst | MotorDriver Board for TangNano9K用物理制約ファイル  
 src/StepperMotor.rao | 
+impl/pnr/a0_0.fs | GAO用ビットストリーム
+impl/pnr/StepperMotor.fs | ビットストリーム
   
 3つある駆動モジュールのインターフェースは全て同じなので容易に入れ替えできます．  
-Because of same interface, You can easily swap motor driver module.
+Because of same interface, You can easily swap motor driver module.  
   
 ### 駆動モジュールのインターフェース
 
