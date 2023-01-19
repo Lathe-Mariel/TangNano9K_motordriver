@@ -1,19 +1,19 @@
 {
  "Files" : [
   {
-   "Path" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_12.sv",
+   "Path" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_12.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_2.sv",
+   "Path" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_2.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_w12.sv",
+   "Path" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_w12.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
+   "Path" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
    "Type" : "verilog"
   }
  ],
@@ -21,7 +21,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "E:/git/TangNano9K_motordriver/sampleProject/StepperMotor/impl/temp/rtl_parser.result",
+ "ResultFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/impl/temp/rtl_parser.result",
  "Top" : "top_w12",
  "VerilogStd" : "sysv",
  "VhdlStd" : "vhdl_93"
