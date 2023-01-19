@@ -20,7 +20,7 @@ module top_w12 #(
 
   logic motor_pulse;
 
-  Motor_w12 inst(
+  Motor_12 inst(
   .clk(clk),
   .phase_a(ch1_phase_a),
   .phase_b(ch1_phase_b),

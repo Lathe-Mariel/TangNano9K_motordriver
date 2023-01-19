@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module name="top_w12" Register="1">
-    <SubModule name="inst" Register="9" Lut="14"/>
+    <SubModule name="inst" Register="9" Lut="13"/>
     <SubModule name="gw_gao_inst_0" Register="136" Lut="151" Bsram="1"/>
     <SubModule name="timer_i" Register="17" Alu="15" Lut="6"/>
 </Module>

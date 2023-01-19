@@ -55,10 +55,10 @@ module Motor_w12 #(
       phase_b <= 1;
     end;
     // INA1
-    if(((phase_counter -1) % 8) < 4) begin
-      INA1 <= 1;
-    end else begin
+    if(((phase_counter -1) % 8) < 3) begin
       INA1 <= 0;
+    end else begin
+      INA1 <= 1;
     end
     // INA2
     if(((phase_counter) % 8) == 6 || (phase_counter) & 1'b1) begin
@@ -67,13 +67,13 @@ module Motor_w12 #(
       INA2 <= 0;
     end
     // INB1
-    if(((phase_counter - 1) % 8) < 4) begin
+    if(((phase_counter) % 8) < 5) begin
       INB1 <= 1;
     end else begin
       INB1 <= 0;
     end
     // INB2
-    if(((phase_counter ) % 8) == 6 || (phase_counter) & 1'b1) begin
+    if(((phase_counter ) % 8) == 2 || (phase_counter) & 1'b1) begin
       INB2 <= 1;
     end else begin
       INB2 <= 0;

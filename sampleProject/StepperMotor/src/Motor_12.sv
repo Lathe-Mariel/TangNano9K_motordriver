@@ -24,6 +24,7 @@ module Motor_12 #(
   
   reg[3:0] vref_count = 0;
   reg[3:0] phase_counter = 0;
+  reg pulse_Divider = 0;
 
   always_ff @ (posedge clk) begin
     vref_count <= vref_count + 4'd1;
@@ -35,10 +36,13 @@ module Motor_12 #(
   end
 
   always@(posedge rotate_pulse)begin
-    if(direction)begin
-      phase_counter <= phase_counter + 1;
-    end else begin
-      phase_counter <= phase_counter - 1;
+    pulse_Divider <= pulse_Divider + 1;
+    if(pulse_Divider == 0)begin
+      if(direction)begin
+        phase_counter <= phase_counter + 1;
+      end else begin
+        phase_counter <= phase_counter - 1;
+      end
     end
   end
 
