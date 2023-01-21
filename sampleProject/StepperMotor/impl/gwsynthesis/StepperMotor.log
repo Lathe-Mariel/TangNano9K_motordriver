@@ -16,20 +16,16 @@ Compiling module 'Motor_2'("D:\Git\TangNano9K_motordriver\sampleProject\StepperM
 WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv":41)
 WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv":44)
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 2("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv":46)
-Compiling module 'timer(COUNT_MAX=50000)'("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":168)
-WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":182)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":117)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":119)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":124)
+Compiling module 'timer(COUNT_MAX=50000)'("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":192)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":206)
 NOTE  (EX0101) : Current top module is "top_w12"
-WARN  (EX0211) : The output port "boardLED[5]" of module "top_w12" has no driver("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":19)
-WARN  (EX0211) : The output port "boardLED[4]" of module "top_w12" has no driver("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":19)
-WARN  (EX0211) : The output port "boardLED[3]" of module "top_w12" has no driver("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":19)
-WARN  (EX0211) : The output port "boardLED[2]" of module "top_w12" has no driver("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":19)
 [5%] Running netlist conversion ...
+WARN  (CV0016) : Input rotary1_SW is unused("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":22)
 WARN  (CV0017) : Inout scl is unused("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":16)
 WARN  (CV0017) : Inout sda is unused("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":17)
-WARN  (CV0003) : Output "boardLED[2]" has undriven bits, assigning undriven bits to Z, simulation mismatch possible("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":19)
-WARN  (CV0003) : Output "boardLED[3]" has undriven bits, assigning undriven bits to Z, simulation mismatch possible("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":19)
-WARN  (CV0003) : Output "boardLED[4]" has undriven bits, assigning undriven bits to Z, simulation mismatch possible("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":19)
-WARN  (CV0003) : Output "boardLED[5]" has undriven bits, assigning undriven bits to Z, simulation mismatch possible("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":19)
 Running device independent optimization ...
 [10%] Optimizing Phase 0 completed
 [15%] Optimizing Phase 1 completed

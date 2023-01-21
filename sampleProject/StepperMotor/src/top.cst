@@ -102,13 +102,14 @@ IO_LOC "rotary2_b" 54;  //exclusive
 IO_PORT "rotary2_b" IO_TYPE=LVCMOS33 PULL_MODE=UP;
 IO_LOC "rotary2_SW" 57;  //exclusive
 IO_PORT "rotary2_SW" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+*/
 IO_LOC "rotary1_SW" 63;
 IO_PORT "rotary1_SW" IO_TYPE=LVCMOS33 PULL_MODE=UP;
 IO_LOC "rotary1_a" 41;
 IO_PORT "rotary1_a" IO_TYPE=LVCMOS33 PULL_MODE=UP;
 IO_LOC "rotary1_b" 42;
 IO_PORT "rotary1_b" IO_TYPE=LVCMOS33 PULL_MODE=UP;
-*/
+
 IO_LOC "sw2" 3;
 IO_PORT "sw2" IO_TYPE=LVCMOS18 PULL_MODE=UP;
 /*

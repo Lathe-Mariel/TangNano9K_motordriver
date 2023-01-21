@@ -9,7 +9,7 @@
   "SubInsts" : [
    {
     "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
-    "InstLine" : 55,
+    "InstLine" : 59,
     "InstName" : "inst_w12",
     "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_w12.sv",
     "ModuleLine" : 3,
@@ -17,7 +17,7 @@
    },
    {
     "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
-    "InstLine" : 71,
+    "InstLine" : 75,
     "InstName" : "inst_12",
     "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_12.sv",
     "ModuleLine" : 3,
@@ -25,7 +25,7 @@
    },
    {
     "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
-    "InstLine" : 87,
+    "InstLine" : 91,
     "InstName" : "inst_2",
     "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/Motor_2.sv",
     "ModuleLine" : 3,
@@ -33,10 +33,10 @@
    },
    {
     "InstFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
-    "InstLine" : 164,
+    "InstLine" : 188,
     "InstName" : "timer_i",
     "ModuleFile" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
-    "ModuleLine" : 168,
+    "ModuleLine" : 192,
     "ModuleName" : "timer"
    }
   ]

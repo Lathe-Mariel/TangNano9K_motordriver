@@ -16,7 +16,10 @@ module top_w12 #(
   inout  wire       scl,
   inout  wire       sda,
   input wire sw2,
-  output wire [5:0] boardLED
+  output wire [5:0] boardLED,
+  input wire rotary1_a,
+  input wire rotary1_b,
+  input wire rotary1_SW
 );
 
 
@@ -49,6 +52,7 @@ module top_w12 #(
 
   reg[1:0] excitation_mode = 0;
   reg[4:0] antiChatter_sw2 = 0;
+  reg[3:0] vref_level = 3;
 
   logic motor_pulse;
 
@@ -65,7 +69,7 @@ module top_w12 #(
   .rotate_pulse(motor_pulse),
   .direction(1'b1),
   .module_enable(1'b1),
-  .vref_level(4'd3)
+  .vref_level(vref_level)
   );
 
   Motor_12 inst_12(
@@ -81,7 +85,7 @@ module top_w12 #(
   .rotate_pulse(motor_pulse),
   .direction(1'b1),
   .module_enable(1'b1),
-  .vref_level(4'd3)
+  .vref_level(vref_level)
   );
 
   Motor_2 inst_2(
@@ -97,12 +101,32 @@ module top_w12 #(
   .rotate_pulse(motor_pulse),
   .direction(1'b1),
   .module_enable(1'b1),
-  .vref_level(4'd3)
+  .vref_level(vref_level)
   );
 
   assign boardLED[1:0] = excitation_mode;
+  assign boardLED[5:2] = vref_level;
+  reg[4:0] antiChatter_rotary1 = 0;
+
 
   always @(posedge clk)begin
+    if(rotary1_a == 1)begin
+      if(antiChatter_rotary1 == 30)begin
+        antiChatter_rotary1 <= antiChatter_rotary1 + 1;
+        if(rotary1_b == 1 && vref_level > 1)begin
+          vref_level <= vref_level - 1;
+        end else if(rotary1_b == 0 && vref_level < 15) begin
+          vref_level <= vref_level + 1;
+        end
+      end else if(antiChatter_rotary1 == 31)begin
+        //
+      end else begin
+        antiChatter_rotary1 <= antiChatter_rotary1 + 1;
+      end
+    end else begin
+      antiChatter_rotary1 <= 0;
+    end
+
     if(overflow)begin
       motor_pulse <= motor_pulse + 1'b1;
     end
