@@ -108,6 +108,7 @@ module top_w12 #(
     end
 
     if(sw2 == 0)begin
+      ch1_STANBY <= 0;
       if(antiChatter_sw2 == 30)begin
         excitation_mode <= excitation_mode + 2'b1;
         antiChatter_sw2 <= antiChatter_sw2 + 4'b1;
@@ -120,42 +121,41 @@ module top_w12 #(
     else begin
       antiChatter_sw2 <= 0;
 
-
-    case(excitation_mode)
-      0:begin
-        ch1_phase_a = w12_ch1_phase_a;
-        ch1_phase_b = w12_ch1_phase_b;
-        ch1_INB1 = w12_ch1_INB1;
-        ch1_INB2 = w12_ch1_INB2;
-        ch1_INA1 = w12_ch1_INA1;
-        ch1_INA2 = w12_ch1_INA2;
-        ch1_STANBY = w12_ch1_STANBY;
-        ch1_VREF = w12_ch1_VREF;
-      end
-      1:begin
-        ch1_phase_a = m12_ch1_phase_a;
-        ch1_phase_b = m12_ch1_phase_b;
-        ch1_INB1 = m12_ch1_INB1;
-        ch1_INB2 = m12_ch1_INB2;
-        ch1_INA1 = m12_ch1_INA1;
-        ch1_INA2 = m12_ch1_INA2;
-        ch1_STANBY = m12_ch1_STANBY;
-        ch1_VREF = m12_ch1_VREF;
-      end
-      2:begin
-        ch1_phase_a = m2_ch1_phase_a;
-        ch1_phase_b = m2_ch1_phase_b;
-        ch1_INB1 = m2_ch1_INB1;
-        ch1_INB2 = m2_ch1_INB2;
-        ch1_INA1 = m2_ch1_INA1;
-        ch1_INA2 = m2_ch1_INA2;
-        ch1_STANBY = m2_ch1_STANBY;
-        ch1_VREF = m2_ch1_VREF;
-      end
-      3:begin
-        ch1_STANBY <= 0;
-      end
-    endcase
+      case(excitation_mode)
+        0:begin
+          ch1_phase_a = w12_ch1_phase_a;
+          ch1_phase_b = w12_ch1_phase_b;
+          ch1_INB1 = w12_ch1_INB1;
+          ch1_INB2 = w12_ch1_INB2;
+          ch1_INA1 = w12_ch1_INA1;
+          ch1_INA2 = w12_ch1_INA2;
+          ch1_STANBY = w12_ch1_STANBY;
+          ch1_VREF = w12_ch1_VREF;
+        end
+        1:begin
+          ch1_phase_a = m12_ch1_phase_a;
+          ch1_phase_b = m12_ch1_phase_b;
+          ch1_INB1 = m12_ch1_INB1;
+          ch1_INB2 = m12_ch1_INB2;
+          ch1_INA1 = m12_ch1_INA1;
+          ch1_INA2 = m12_ch1_INA2;
+          ch1_STANBY = m12_ch1_STANBY;
+          ch1_VREF = m12_ch1_VREF;
+        end
+        2:begin
+          ch1_phase_a = m2_ch1_phase_a;
+          ch1_phase_b = m2_ch1_phase_b;
+          ch1_INB1 = m2_ch1_INB1;
+          ch1_INB2 = m2_ch1_INB2;
+          ch1_INA1 = m2_ch1_INA1;
+          ch1_INA2 = m2_ch1_INA2;
+          ch1_STANBY = m2_ch1_STANBY;
+          ch1_VREF = m2_ch1_VREF;
+        end
+        3:begin
+          ch1_STANBY <= 0;
+        end
+      endcase
     end
   end
 
