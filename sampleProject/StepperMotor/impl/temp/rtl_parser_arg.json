@@ -17,6 +17,14 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/if202212_gowin-main/dvi_out_tpg/src/tangnano9k/ip/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/if202212_gowin-main/dvi_out_tpg/src/tangnano9k/ip/gowin_rpll_ser/gowin_rpll_ser.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/if202212_gowin-main/dvi_out_tpg/src/tangnano9k/reset_seq.sv",
    "Type" : "verilog"
   },
@@ -26,14 +34,6 @@
   },
   {
    "Path" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/top_w12.sv",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/if202212_gowin-main/dvi_out_tpg/src/tangnano9k/ip/gowin_rpll/gowin_rpll.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "D:/Git/TangNano9K_motordriver/sampleProject/StepperMotor/src/if202212_gowin-main/dvi_out_tpg/src/tangnano9k/ip/gowin_rpll_ser/gowin_rpll_ser.v",
    "Type" : "verilog"
   }
  ],

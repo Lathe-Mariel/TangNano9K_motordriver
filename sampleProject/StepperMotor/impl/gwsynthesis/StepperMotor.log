@@ -4,11 +4,11 @@ Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor
 Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv'
 Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_w12.sv'
 Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv'
+Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll_ser\gowin_rpll_ser.v'
 Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\reset_seq.sv'
 Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\rtl\dvi_out\dvi_out.sv'
 Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv'
-Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll\gowin_rpll.v'
-Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll_ser\gowin_rpll_ser.v'
 Compiling module 'top_w12'("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":12)
 Compiling module 'Motor_w12'("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_w12.sv":3)
 WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_w12.sv":37)

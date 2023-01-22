@@ -8,11 +8,11 @@
         <File path="D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv" type="verilog"/>
         <File path="D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_w12.sv" type="verilog"/>
         <File path="D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv" type="verilog"/>
+        <File path="D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll\gowin_rpll.v" type="verilog"/>
+        <File path="D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll_ser\gowin_rpll_ser.v" type="verilog"/>
         <File path="D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\reset_seq.sv" type="verilog"/>
         <File path="D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\rtl\dvi_out\dvi_out.sv" type="verilog"/>
         <File path="D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv" type="verilog"/>
-        <File path="D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll\gowin_rpll.v" type="verilog"/>
-        <File path="D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll_ser\gowin_rpll_ser.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>
