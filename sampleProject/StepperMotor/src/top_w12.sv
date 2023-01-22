@@ -1,4 +1,4 @@
-// srce code relates next file's license//
+// srce code relates next file's license//
 // @file top.sv
 // @brief Top module for DVI test pattern generator design.
 //
@@ -248,11 +248,6 @@ logic video_vsync;
 logic [23:0] video_data;
 
 diagram_generator #(
-  .BOUNCE_LOGO(0),
-  .LOGO_PATH(""),
-  .LOGO_WIDTH(250),
-  .LOGO_HEIGHT(50),
-  .LOGO_COLOR(24'h000000)  
 ) tpg_inst (
   .clock(clock_dvi),
   .reset(reset_dvi),
