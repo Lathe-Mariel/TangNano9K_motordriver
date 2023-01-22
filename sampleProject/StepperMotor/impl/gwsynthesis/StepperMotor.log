@@ -1,31 +1,47 @@
 GowinSynthesis start
 Running parser ...
-Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_12.sv'
-Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv'
-Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_w12.sv'
-Analyzing Verilog file 'D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv'
-Compiling module 'top_w12'("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":3)
-Compiling module 'Motor_w12'("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_w12.sv":3)
-WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_w12.sv":37)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_w12.sv":39)
-Compiling module 'Motor_12'("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_12.sv":3)
-WARN  (EX3791) : Expression size 2 truncated to fit in target size 1("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_12.sv":39)
-WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_12.sv":42)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_12.sv":44)
-Compiling module 'Motor_2'("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv":3)
-WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv":41)
-WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv":44)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 2("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv":46)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":117)
-WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":119)
-WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":124)
-Compiling module 'timer(COUNT_MAX=50000)'("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":192)
-WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":206)
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_12.sv'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_w12.sv'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll_ser\gowin_rpll_ser.v'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\rtl\dvi_out\dvi_out.sv'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\reset_seq.sv'
+Compiling module 'top_w12'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":12)
+Compiling module 'Motor_w12'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_w12.sv":3)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_w12.sv":37)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_w12.sv":39)
+Compiling module 'Motor_12'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_12.sv":3)
+WARN  (EX3791) : Expression size 2 truncated to fit in target size 1("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_12.sv":39)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_12.sv":42)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_12.sv":44)
+Compiling module 'Motor_2'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv":3)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv":41)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv":44)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 2("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv":46)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":131)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":133)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":138)
+Compiling module 'timer(COUNT_MAX=50000)'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":347)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":361)
+Compiling module 'reset_seq'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\reset_seq.sv":2)
+Compiling module 'gowin_rpll_dvi'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll\gowin_rpll.v":9)
+Compiling module 'gowin_rpll_ser'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll_ser\gowin_rpll_ser.v":9)
+Compiling module 'reset_seq(RESET_DELAY_CYCLES=4)'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\reset_seq.sv":2)
+Compiling module 'diagram_generator(BOUNCE_LOGO=1'b0,LOGO_COLOR=24'h000000,LOGO_WIDTH=250,LOGO_HEIGHT=50)'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv":13)
+Extracting RAM for identifier 'logo_memory'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv":54)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 14("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv":101)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 11("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv":117)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv":118)
+WARN  (EX1998) : Net 'logo_pixels[7]' does not have a driver("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv":62)
+Compiling module 'dvi_out'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\rtl\dvi_out\dvi_out.sv":12)
 NOTE  (EX0101) : Current top module is "top_w12"
 [5%] Running netlist conversion ...
-WARN  (CV0016) : Input rotary1_SW is unused("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":22)
-WARN  (CV0017) : Inout scl is unused("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":16)
-WARN  (CV0017) : Inout sda is unused("D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":17)
+WARN  (CV0016) : Input rotary1_SW is unused("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":31)
+WARN  (CV0017) : Inout scl is unused("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":25)
+WARN  (CV0017) : Inout sda is unused("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\top_w12.sv":26)
 Running device independent optimization ...
 [10%] Optimizing Phase 0 completed
 [15%] Optimizing Phase 1 completed
@@ -41,6 +57,6 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
-[95%] Generate netlist file "D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\gwsynthesis\StepperMotor.vg" completed
-[100%] Generate report file "D:\Git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\gwsynthesis\StepperMotor_syn.rpt.html" completed
+[95%] Generate netlist file "E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\gwsynthesis\StepperMotor.vg" completed
+[100%] Generate report file "E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\impl\gwsynthesis\StepperMotor_syn.rpt.html" completed
 GowinSynthesis finish

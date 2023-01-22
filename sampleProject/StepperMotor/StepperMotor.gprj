@@ -8,6 +8,11 @@
         <File path="src/Motor_12.sv" type="file.verilog" enable="1"/>
         <File path="src/Motor_2.sv" type="file.verilog" enable="1"/>
         <File path="src/Motor_w12.sv" type="file.verilog" enable="1"/>
+        <File path="src/diagram_generator.sv" type="file.verilog" enable="1"/>
+        <File path="src/if202212_gowin-main/dvi_out_tpg/src/tangnano9k/ip/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/if202212_gowin-main/dvi_out_tpg/src/tangnano9k/ip/gowin_rpll_ser/gowin_rpll_ser.v" type="file.verilog" enable="1"/>
+        <File path="src/if202212_gowin-main/dvi_out_tpg/src/tangnano9k/reset_seq.sv" type="file.verilog" enable="1"/>
+        <File path="src/if202212_gowin-main/rtl/dvi_out/dvi_out.sv" type="file.verilog" enable="1"/>
         <File path="src/rotate.sv" type="file.verilog" enable="0"/>
         <File path="src/top.sv" type="file.verilog" enable="0"/>
         <File path="src/top_w12.sv" type="file.verilog" enable="1"/>
