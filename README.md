@@ -31,8 +31,8 @@ DC-DC converter can be installed on the board.
 ## FPGA側のピンを共用する機能 Multi purpose pins
 　FPGAのピン数が限られているので，一部の機能は同時に利用できません．  
    
-### HDMIコネクタ
-　DVI信号を出力する場合，HDMI_CK_N，HDMI_CK_P，HDMI_D0～HDMI_D2など8本の信号を使います．これらは，ロータリエンコーダ2ch目とマトリクスLEDの信号と競合します．従ってDVI出力する場合は，ロータリエンコーダの2ch目とマトリクスLEDが使えません．  
+### HDMIコネクタとマトリクスLED＆ロータリエンコーダ2
+　DVI信号を出力する場合， `HDMI_CK_N(68)` ， `HDMI_CK_P(69)` ， `HDMI_D0` ～ `HDMI_D2` など8本の信号を使います．これらは，ロータリエンコーダ2ch目とマトリクスLEDの信号と競合します．従ってDVI出力する場合は，ロータリエンコーダの2ch目とマトリクスLEDが使えません．  
   
 ### 排他利用する機能の選択 Selection of exclusive functions
 　モータドライバの励磁モード選択はINA1，INA2，INB1，INB2端子で行います．  
