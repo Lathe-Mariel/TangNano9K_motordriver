@@ -5,7 +5,12 @@ This is mother board for Tang Nano 9K(Sipeed).
   
 オープンソースの回路CADである，KiCAD のプロジェクトになっています．  
 These files were made by KiCAD.
+  
+/doc ドキュメント用の素材  
+/output　KiCADで出力したガーバーデータ．このままPCBに発注できます．  
+/sampleProject　この基板向けの数種類のサンプルプロジェクト  
 
+  
 ## 機能 Functions
 次の機能を実装できます．
 - ステッピングモータドライバ x2ch <TB67S101ANG(TOSHIBA)>
