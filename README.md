@@ -79,8 +79,10 @@ DC-DC converter can be installed on the board.
    
    
 ## サンプルプログラム
-`/sampleProject`にマトリクスLEDを使った時計のプロジェクトが入っています．このプロジェクトはPythonベースの高位合成ツールPolyphonyを利用しています．  
+   
 ### PolyphonyMatrix_Clock
+`/sampleProject`にマトリクスLEDを使った時計のプロジェクトが入っています．  
+このプロジェクトはPythonベースの高位合成ツールPolyphonyを利用しています．  
 　Gowin EDAのプロジェクトになっているので，そのままGowin EDAで読み込めます．impl/pnr/にビットストリームファイルもあるので，合成しなくてもすぐにFlash Programmerで書き込めます．  
  Verilogファイル `LEDMatrixAB_m.v` は，Polyphonyで `LEDMatrix.py` をコンパイルして生成したものです．
  
