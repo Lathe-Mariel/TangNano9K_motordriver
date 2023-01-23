@@ -69,6 +69,7 @@ always_ff @(posedge clock) begin
                 && VSYNC + VBACK <= vcounter && vcounter < VSYNC + VBACK + VACTIVE;
         video_hsync <= hcounter < HSYNC;
         video_vsync <= vcounter < VSYNC;
+//2phase
         if(vcounter == 100)begin
           if((hcounter & 8'b10000000) == 0)begin
             video_data <= 24'heeeeee;
@@ -77,7 +78,7 @@ always_ff @(posedge clock) begin
             video_data <= 24'h000000;
           end
         end
-        else if(vcounter == 150 )begin
+        else if(vcounter == 160 )begin
           if((hcounter & 6'b100000) == 0)begin
             video_data <= 24'hbbbbbb;
           end
@@ -85,7 +86,7 @@ always_ff @(posedge clock) begin
             video_data <= 24'heeeeee;
           end
         end
-        else if(vcounter == 200 )begin
+        else if(vcounter == 220 )begin
           if((hcounter & 8'b10000000) == 0)begin
             video_data <= 24'h000000;
           end
@@ -93,8 +94,78 @@ always_ff @(posedge clock) begin
             video_data <= 24'heeeeee;
           end
         end
-        else if(vcounter > 100 && vcounter < 200)begin
+        else if(vcounter > 100 && vcounter < 220)begin
           if((hcounter % 128) == 0)begin
+              video_data <= 24'h000000;
+          end
+          else begin
+            video_data <= 24'heeeeee;
+          end
+        end
+
+//w1-2phase
+        else if(vcounter == 400)begin
+          if((hcounter < 192))begin
+            video_data <= 24'h000000;
+          end
+          else begin
+            video_data <= 24'heeeeee;
+          end
+        end
+        else if(vcounter == 420)begin
+          if((hcounter > 192 && hcounter < 256))begin
+            video_data <= 24'h000000;
+          end
+          else begin
+            video_data <= 24'heeeeee;
+          end
+        end
+        else if(vcounter == 440)begin
+          if((hcounter > 256 && hcounter < 320))begin
+            video_data <= 24'h000000;
+          end
+          else begin
+            video_data <= 24'heeeeee;
+          end
+        end
+        else if(vcounter == 460)begin
+          if((hcounter > 320) && (hcounter < 384))begin
+            video_data <= 24'h000000;
+          end
+          else if((hcounter & 6'b100000) == 0) begin
+            video_data <= 24'heeeeee;
+          end
+          else begin
+            video_data <= 24'hbbbbbb;
+          end
+        end
+        else if(vcounter == 480 )begin
+          if(hcounter > 384 && hcounter < 448)begin
+            video_data <= 24'h000000;
+          end
+          else begin
+            video_data <= 24'heeeeee;
+          end
+        end
+        else if(vcounter == 500 )begin
+          if(hcounter > 448 && hcounter < 512)begin
+            video_data <= 24'h000000;
+          end
+          else begin
+            video_data <= 24'heeeeee;
+          end
+        end
+        else if(vcounter == 520 )begin
+          if(hcounter > 512 && hcounter < 704)begin
+            video_data <= 24'h000000;
+          end
+          else begin
+            video_data <= 24'heeeeee;
+          end
+        end
+
+        else if(vcounter > 400 && vcounter < 520)begin
+          if((hcounter % 64) == 0)begin
               video_data <= 24'h000000;
           end
           else begin
@@ -104,6 +175,7 @@ always_ff @(posedge clock) begin
         else begin
             video_data <= 24'heeeeee;
         end
+
     end
 end
 

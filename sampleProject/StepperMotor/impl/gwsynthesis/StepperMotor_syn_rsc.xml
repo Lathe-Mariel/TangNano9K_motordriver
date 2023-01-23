@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="top_w12" Register="28" Lut="50">
+<Module name="top_w12" Register="28" Lut="49">
     <SubModule name="inst_w12" Register="9" Alu="4" Lut="3"/>
     <SubModule name="inst_12" Register="4" Alu="4" Lut="4"/>
     <SubModule name="inst_2" Register="3" Alu="4" Lut="7"/>
@@ -8,6 +8,6 @@
     <SubModule name="rpll_dvi"/>
     <SubModule name="rpll_dvi_ser"/>
     <SubModule name="reset_seq_dvi" Register="5"/>
-    <SubModule name="tpg_inst" Register="26" Alu="10" Lut="57"/>
-    <SubModule name="dvi_out_inst" Register="54" Alu="44" Lut="155"/>
+    <SubModule name="tpg_inst" Register="27" Alu="10" Lut="98"/>
+    <SubModule name="dvi_out_inst" Register="58" Alu="45" Lut="159"/>
 </Module>
