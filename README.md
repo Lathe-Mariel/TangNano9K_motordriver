@@ -63,7 +63,7 @@ DC-DC converter can be installed on the board.
    
  ![](doc/aki.png "参考部品リスト")
  
-## 機能の捕捉 Additional for Functions
+## 機能の補足 Additional for Functions
 ### モータドライバTB67S101ANG（TOSHIBA）
 　このICへ電流制御用のレファレンス電圧を供給する必要があります．PinはVREFA及びVREFBです．このボードではVREFAとVREFBは直結されています．これらとFPGAの27（モータドライバch1）が接続されています．FPGAからパルスのデューティで所望の電圧を送って下さい．電圧の平滑化のために，RCフィルタのパターンが実装されています．R7とC8（モータドライバch1）に適当な値のものを実装してください．  
   
@@ -79,6 +79,7 @@ DC-DC converter can be installed on the board.
  
 ### MotorDriver
  モータドライバ IC TB67S101ANG(TOSHIBA) を使ってステッピングモータの2相励磁，1－2相励磁，W1-2相励磁ができます．  
+ DVI出力もしているため，マトリクスLEDは取り外してください（取り外せるようにピンソケット経由で実装するのがおすすめ）．  
  
 ### Parallel
 　回路を複数のモジュールに分けて並列に実行させるサンプルです．3つのLEDを3つの回路で点滅させています．  
