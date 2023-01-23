@@ -85,7 +85,8 @@ DC-DC converter can be installed on the board.
  Verilogファイル `LEDMatrixAB_m.v` は，Polyphonyで `LEDMatrix.py` をコンパイルして生成したものです．
  
 ### MotorDriver
- モータドライバ IC TB67S101ANG(TOSHIBA) を使ってステッピングモータの2相励磁，1－2相励磁，W1-2相励磁ができます．  
+ モータドライバ IC TB67S101ANG(TOSHIBA) を使ってステッピングモータの2相励磁，1－2相励磁，W1-2相励磁ができます． 
+ このサンプルプログラムでは，DVI出力もしています．ピンが競合するのでマトリクスLEDは取り外してください．  
  
 ### Parallel
 　回路を複数のモジュールに分けて並列に実行させるサンプルです．3つのLEDを3つの回路で点滅させています．  
