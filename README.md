@@ -33,6 +33,7 @@ DC-DC converter can be installed on the board.
    
 ### HDMIコネクタとマトリクスLED＆ロータリエンコーダ2
 　DVI信号を出力する場合， `HDMI_CK_N(68)` ， `HDMI_CK_P(69)` ， `HDMI_D0` ～ `HDMI_D2` など8本の信号を使います．これらは，ロータリエンコーダ2ch目とマトリクスLEDの信号と競合します．従ってDVI出力する場合は，ロータリエンコーダの2ch目とマトリクスLEDが使えません．  
+  ボードにマトリクスLEDを実装するときは，必要に応じて脱着できるようにピンソケット経由にするのがお勧めです．  
   
 ### 排他利用する機能の選択 Selection of exclusive functions
 　モータドライバの励磁モード選択はINA1，INA2，INB1，INB2端子で行います．  
