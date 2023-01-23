@@ -65,7 +65,8 @@ DC-DC converter can be installed on the board.
  
 ## 機能の補足 Additional for Functions
 ### モータドライバTB67S101ANG（TOSHIBA）
-　このICへ電流制御用のレファレンス電圧を供給する必要があります．PinはVREFA及びVREFBです．このボードではVREFAとVREFBは直結されています．これらとFPGAの27（モータドライバch1）が接続されています．FPGAからパルスのデューティで所望の電圧を送って下さい．電圧の平滑化のために，RCフィルタのパターンが実装されています．R7とC8（モータドライバch1）に適当な値のものを実装してください．  
+　このICへ電流制御用のレファレンス電圧を供給する必要があります．Pinは `VREFA` 及び `VREFB` です．このボードでは `VREFA` と `VREFB` は直結されています．これらとFPGAの `27` （モータドライバch1）が接続されています．FPGAからパルスのデューティで所望の電圧を送って下さい．電圧の平滑化のために，RCフィルタのパターンが実装されています．R7とC8（モータドライバch1）に適当な値のものを実装してください．  
+ （RCは，1μFと100kオーム．duty3/8くらいから試してください）  
   
   
    ![](doc/schematics2.png "モータドライバのレファレンス電圧供給経路にあるRCフィルタ")
@@ -78,7 +79,7 @@ DC-DC converter can be installed on the board.
  Verilogファイル `LEDMatrixAB_m.v` は，Polyphonyで `LEDMatrix.py` をコンパイルして生成したものです．
  
 ### MotorDriver
- モータドライバ IC TB67S101ANG(TOSHIBA) を使ってステッピングモータの2相励磁，1－2相励磁，W1-2相励磁ができます．  
+ モータドライバ IC TB67S101ANG(TOSHIBA) を使ってステッピングモータの2相励磁，1-2相励磁，W1-2相励磁ができます．  
  DVI出力もしているため，マトリクスLEDは取り外してください（取り外せるようにピンソケット経由で実装するのがおすすめ）．  
  
 ### Parallel
