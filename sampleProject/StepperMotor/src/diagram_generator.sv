@@ -71,10 +71,18 @@ always_ff @(posedge clock) begin
         video_vsync <= vcounter < VSYNC;
         if(vcounter == 100)begin
           if((hcounter & 8'b10000000) == 0)begin
-            video_data <= 24'hffffff;
+            video_data <= 24'heeeeee;
           end
           else begin
             video_data <= 24'h000000;
+          end
+        end
+        else if(vcounter == 150 )begin
+          if((hcounter & 6'b100000) == 0)begin
+            video_data <= 24'hbbbbbb;
+          end
+          else begin
+            video_data <= 24'heeeeee;
           end
         end
         else if(vcounter == 200 )begin
@@ -82,7 +90,7 @@ always_ff @(posedge clock) begin
             video_data <= 24'h000000;
           end
           else begin
-            video_data <= 24'hffffff;
+            video_data <= 24'heeeeee;
           end
         end
         else if(vcounter > 100 && vcounter < 200)begin
@@ -90,11 +98,11 @@ always_ff @(posedge clock) begin
               video_data <= 24'h000000;
           end
           else begin
-            video_data <= 24'hffffff;
+            video_data <= 24'heeeeee;
           end
         end
         else begin
-            video_data <= 24'hdddddd;
+            video_data <= 24'heeeeee;
         end
     end
 end

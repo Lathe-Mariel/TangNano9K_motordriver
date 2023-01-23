@@ -8,6 +8,6 @@
     <SubModule name="rpll_dvi"/>
     <SubModule name="rpll_dvi_ser"/>
     <SubModule name="reset_seq_dvi" Register="5"/>
-    <SubModule name="tpg_inst" Register="26" Alu="10" Lut="52"/>
-    <SubModule name="dvi_out_inst" Register="56" Alu="45" Lut="156"/>
+    <SubModule name="tpg_inst" Register="26" Alu="10" Lut="57"/>
+    <SubModule name="dvi_out_inst" Register="54" Alu="44" Lut="155"/>
 </Module>
