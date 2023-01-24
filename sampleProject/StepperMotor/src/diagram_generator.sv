@@ -79,7 +79,7 @@ always_ff @(posedge clock) begin
           end
         end
         else if(vcounter == 160 )begin
-          if((hcounter & 6'b100000) == 0)begin
+          if((hcounter & 5'b10000) == 0)begin
             video_data <= 24'hbbbbbb;
           end
           else begin
@@ -103,81 +103,136 @@ always_ff @(posedge clock) begin
           end
         end
 
-//w1-2phase
-        else if(vcounter == 400)begin
-          if((hcounter < 192))begin
-            video_data <= 24'h000000;
-          end
-          else begin
-            video_data <= 24'heeeeee;
-          end
+        else begin
+          video_data <= shader_w12(hcounter-250, vcounter-400);
         end
-        else if(vcounter == 420)begin
-          if((hcounter > 192 && hcounter < 256))begin
-            video_data <= 24'h000000;
-          end
-          else begin
-            video_data <= 24'heeeeee;
-          end
-        end
-        else if(vcounter == 440)begin
-          if((hcounter > 256 && hcounter < 320))begin
-            video_data <= 24'h000000;
-          end
-          else begin
-            video_data <= 24'heeeeee;
-          end
-        end
-        else if(vcounter == 460)begin
-          if((hcounter > 320) && (hcounter < 384))begin
-            video_data <= 24'h000000;
-          end
-          else if((hcounter & 6'b100000) == 0) begin
-            video_data <= 24'heeeeee;
-          end
-          else begin
-            video_data <= 24'hbbbbbb;
-          end
-        end
-        else if(vcounter == 480 )begin
-          if(hcounter > 384 && hcounter < 448)begin
-            video_data <= 24'h000000;
-          end
-          else begin
-            video_data <= 24'heeeeee;
-          end
-        end
-        else if(vcounter == 500 )begin
-          if(hcounter > 448 && hcounter < 512)begin
-            video_data <= 24'h000000;
-          end
-          else begin
-            video_data <= 24'heeeeee;
-          end
-        end
-        else if(vcounter == 520 )begin
-          if(hcounter > 512 && hcounter < 704)begin
-            video_data <= 24'h000000;
-          end
-          else begin
-            video_data <= 24'heeeeee;
-          end
-        end
+    end
+end
 
-        else if(vcounter > 400 && vcounter < 520)begin
-          if((hcounter % 64) == 0)begin
-              video_data <= 24'h000000;
+
+function [23:0] shader_w12(hcounter_t x, vcounter_t y);
+begin
+  if((x / 160) % 2)begin
+    y = 120 - y;
+  end
+  x = x % 160;
+
+        if((x < 70 || x > 90) && y == 60)begin 
+          if((x & 5'b10000) == 0)begin
+            shader_w12 <= 24'hbbbbbb;
+          end else begin
+            shader_w12 <= 24'heeeeee;
+          end
+        end
+        else if(x < 30)begin
+          if(y == 120)begin
+            shader_w12 <= 24'h000000;
           end
           else begin
-            video_data <= 24'heeeeee;
+            shader_w12 <= 24'heeeeee;
+          end
+        end
+        else if(x == 30)begin
+          if(y <120 && y > 100)begin
+            shader_w12 <= 24'h000000;
+          end
+          else begin
+            shader_w12 <= 24'heeeeee;
+          end
+        end
+        else if(x < 50)begin
+          if(y == 100)begin
+            shader_w12 <= 24'h000000;
+          end
+          else begin
+            shader_w12 <= 24'heeeeee;
+          end
+        end
+        else if(x == 50)begin
+          if(y < 100 && y > 80)begin
+            shader_w12 <= 24'h000000;
+          end
+          else begin
+            shader_w12 <= 24'heeeeee;
+          end
+        end
+        else if(x < 70)begin
+          if(y == 80)begin
+            shader_w12 <= 24'h000000;
+          end
+          else begin
+            shader_w12 <= 24'heeeeee;
+          end
+        end
+        else if(x == 70)begin
+          if(y < 80 && y > 60)begin
+            shader_w12 <= 24'h000000;
+          end
+          else begin
+            shader_w12 <= 24'heeeeee;
+          end
+        end
+        else if(x < 90)begin
+          if(y == 60)begin
+            shader_w12 <= 24'h000000;
+          end
+          else begin
+            shader_w12 <= 24'heeeeee;
+          end
+        end
+        else if(x == 90)begin
+          if(y < 60 && y > 40)begin
+            shader_w12 <= 24'h000000;
+          end
+          else begin
+            shader_w12 <= 24'heeeeee;
+          end
+        end
+        else if(x < 110)begin
+          if(y == 40)begin
+            shader_w12 <= 24'h000000;
+          end
+          else begin
+            shader_w12 <= 24'heeeeee;
+          end
+        end
+        else if(x == 110)begin
+          if(y < 40 && y > 20)begin
+            shader_w12 <= 24'h000000;
+          end
+          else begin
+            shader_w12 <= 24'heeeeee;
+          end
+        end
+        else if(x < 130)begin
+          if(y == 20)begin
+            shader_w12 <= 24'h000000;
+          end
+          else begin
+            shader_w12 <= 24'heeeeee;
+          end
+        end
+        else if(x == 130)begin
+          if(y < 20 && y > 0)begin
+            shader_w12 <= 24'h000000;
+          end
+          else begin
+            shader_w12 <= 24'heeeeee;
+          end
+        end
+        else if(x < 160)begin
+          if(y == 0)begin
+            shader_w12 <= 24'h000000;
+          end
+          else begin
+            shader_w12 <= 24'heeeeee;
           end
         end
         else begin
-            video_data <= 24'heeeeee;
+            shader_w12 <= 24'heeeeee;
         end
-
     end
-end
+endfunction
 
 endmodule
 `default_nettype wire
