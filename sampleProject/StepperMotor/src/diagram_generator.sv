@@ -112,10 +112,14 @@ end
 
 function [23:0] shader_w12(hcounter_t x, vcounter_t y);
 begin
+  logic[23:0] tmp1 = (x>y)?(x-y):(y-x);
+
   if((x / 160) % 2)begin
     y = 120 - y;
   end
   x = x % 160;
+
+if(tmp1>0)begin
 
         if((x < 70 || x > 90) && y == 60)begin 
           if((x & 5'b10000) == 0)begin
@@ -232,6 +236,7 @@ begin
             shader_w12 <= 24'heeeeee;
         end
     end
+end
 endfunction
 
 endmodule

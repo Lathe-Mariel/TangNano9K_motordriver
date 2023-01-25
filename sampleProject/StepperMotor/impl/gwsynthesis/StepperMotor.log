@@ -4,6 +4,7 @@ Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor
 Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_2.sv'
 Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\Motor_w12.sv'
 Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv'
+WARN  (EX2987) : Variable 'tmp1' must explicitly be declared as automatic or static("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv":115)
 Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll\gowin_rpll.v'
 Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll_ser\gowin_rpll_ser.v'
 Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\reset_seq.sv'
@@ -31,8 +32,10 @@ Compiling module 'gowin_rpll_dvi'("E:\git\TangNano9K_motordriver\sampleProject\S
 Compiling module 'gowin_rpll_ser'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll_ser\gowin_rpll_ser.v":9)
 Compiling module 'reset_seq(RESET_DELAY_CYCLES=4)'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\reset_seq.sv":2)
 Compiling module 'diagram_generator'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv":13)
-WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv":116)
+WARN  (EX3141) : Ignoring non-constant initial value of static variable 'tmp1'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv":115)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv":118)
 WARN  (EX3696) : Use of 'shader_w12' without initialization in static subprogram 'shader_w12' may create unintended latch behavior("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv":113)
+WARN  (EX1998) : Net 'shader_w12.tmp1[23]' does not have a driver("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\diagram_generator.sv":115)
 Compiling module 'dvi_out'("E:\git\TangNano9K_motordriver\sampleProject\StepperMotor\src\if202212_gowin-main\rtl\dvi_out\dvi_out.sv":12)
 NOTE  (EX0101) : Current top module is "top_w12"
 [5%] Running netlist conversion ...

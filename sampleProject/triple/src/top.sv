@@ -10,9 +10,9 @@ module top_w12 #(
 
 always@(posedge clk)begin
   if(~sw2)begin
-    boardLED <= ~(func1(5, 10));
+    boardLED <= ~(func1(10, 5));
   end else if(~sw1)begin
-    boardLED <= ~(func2(5, 10));
+    boardLED <= ~(func2(10, 5));
   end else begin
     boardLED <= ~(6'b0);
   end

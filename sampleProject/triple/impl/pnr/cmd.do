@@ -1,10 +1,11 @@
--d D:\Git\gowin\triple\impl\gwsynthesis\triple.vg
+-d E:\git\TangNano9K_motordriver\sampleProject\triple\impl\gwsynthesis\triple.vg
 -p GW1NR-9C-QFN88P-6
 -pn GW1NR-LV9QN88PC6/I5
--cst D:\Git\gowin\triple\src\top.cst
--cfg D:\Git\gowin\triple\impl\pnr\device.cfg
+-cst E:\git\TangNano9K_motordriver\sampleProject\triple\src\top.cst
+-cfg E:\git\TangNano9K_motordriver\sampleProject\triple\impl\pnr\device.cfg
 -bit
 -tr
 -ph
 -timing
 -cst_error
+-route_maxfan 23

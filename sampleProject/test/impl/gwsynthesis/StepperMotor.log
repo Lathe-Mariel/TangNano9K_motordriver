@@ -1,0 +1,88 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\test\src\Motor_12.sv'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\test\src\Motor_2.sv'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\test\src\Motor_w12.sv'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\test\src\diagram_generator.sv'
+WARN  (EX2987) : Variable 'tmp1' must explicitly be declared as automatic or static("E:\git\TangNano9K_motordriver\sampleProject\test\src\diagram_generator.sv":79)
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\test\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\test\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll_ser\gowin_rpll_ser.v'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\test\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\reset_seq.sv'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\test\src\if202212_gowin-main\rtl\dvi_out\dvi_out.sv'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\test\src\top_w12.sv'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v'
+Analyzing included file 'E:\git\TangNano9K_motordriver\sampleProject\test\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":133)
+Back to file 'C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":133)
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'
+Analyzing included file 'C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_define.v'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Back to file 'C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Analyzing included file 'E:\git\TangNano9K_motordriver\sampleProject\test\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Back to file 'C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Analyzing included file 'E:\git\TangNano9K_motordriver\sampleProject\test\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_parameter.v'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Back to file 'C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":693)
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'
+Analyzing included file 'E:\git\TangNano9K_motordriver\sampleProject\test\impl\gwsynthesis\RTL_GAO\ao_control\gw_con_top_define.v'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Back to file 'C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Analyzing included file 'C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_parameter.v'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Back to file 'C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":367)
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\gw_jtag.v'
+Analyzing Verilog file 'E:\git\TangNano9K_motordriver\sampleProject\test\impl\gwsynthesis\RTL_GAO\gw_gao_top.v'
+Compiling module 'Motor_12'("E:\git\TangNano9K_motordriver\sampleProject\test\src\Motor_12.sv":3)
+WARN  (EX3791) : Expression size 2 truncated to fit in target size 1("E:\git\TangNano9K_motordriver\sampleProject\test\src\Motor_12.sv":39)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("E:\git\TangNano9K_motordriver\sampleProject\test\src\Motor_12.sv":42)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("E:\git\TangNano9K_motordriver\sampleProject\test\src\Motor_12.sv":44)
+Compiling module 'Motor_2'("E:\git\TangNano9K_motordriver\sampleProject\test\src\Motor_2.sv":3)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("E:\git\TangNano9K_motordriver\sampleProject\test\src\Motor_2.sv":41)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("E:\git\TangNano9K_motordriver\sampleProject\test\src\Motor_2.sv":44)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 2("E:\git\TangNano9K_motordriver\sampleProject\test\src\Motor_2.sv":46)
+Compiling module 'Motor_w12'("E:\git\TangNano9K_motordriver\sampleProject\test\src\Motor_w12.sv":3)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("E:\git\TangNano9K_motordriver\sampleProject\test\src\Motor_w12.sv":37)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("E:\git\TangNano9K_motordriver\sampleProject\test\src\Motor_w12.sv":39)
+Compiling module 'diagram_generator'("E:\git\TangNano9K_motordriver\sampleProject\test\src\diagram_generator.sv":13)
+WARN  (EX3141) : Ignoring non-constant initial value of static variable 'tmp1'("E:\git\TangNano9K_motordriver\sampleProject\test\src\diagram_generator.sv":79)
+WARN  (EX3696) : Use of 'shader_w12' without initialization in static subprogram 'shader_w12' may create unintended latch behavior("E:\git\TangNano9K_motordriver\sampleProject\test\src\diagram_generator.sv":77)
+WARN  (EX1998) : Net 'shader_w12.tmp1[23]' does not have a driver("E:\git\TangNano9K_motordriver\sampleProject\test\src\diagram_generator.sv":79)
+Compiling module 'gowin_rpll_dvi'("E:\git\TangNano9K_motordriver\sampleProject\test\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll\gowin_rpll.v":9)
+Compiling module 'gowin_rpll_ser'("E:\git\TangNano9K_motordriver\sampleProject\test\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\ip\gowin_rpll_ser\gowin_rpll_ser.v":9)
+Compiling module 'reset_seq'("E:\git\TangNano9K_motordriver\sampleProject\test\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\reset_seq.sv":2)
+Compiling module 'dvi_out'("E:\git\TangNano9K_motordriver\sampleProject\test\src\if202212_gowin-main\rtl\dvi_out\dvi_out.sv":12)
+Compiling module 'top_w12'("E:\git\TangNano9K_motordriver\sampleProject\test\src\top_w12.sv":12)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("E:\git\TangNano9K_motordriver\sampleProject\test\src\top_w12.sv":131)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("E:\git\TangNano9K_motordriver\sampleProject\test\src\top_w12.sv":133)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("E:\git\TangNano9K_motordriver\sampleProject\test\src\top_w12.sv":138)
+Compiling module 'timer(COUNT_MAX=50000)'("E:\git\TangNano9K_motordriver\sampleProject\test\src\top_w12.sv":342)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("E:\git\TangNano9K_motordriver\sampleProject\test\src\top_w12.sv":356)
+Compiling module 'reset_seq(RESET_DELAY_CYCLES=4)'("E:\git\TangNano9K_motordriver\sampleProject\test\src\if202212_gowin-main\dvi_out_tpg\src\tangnano9k\reset_seq.sv":2)
+Compiling module '**'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Extracting RAM for identifier '**'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Compiling module '**'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_top.v":0)
+Compiling module '**'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Extracting RAM for identifier '**'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_AO_0\gw_ao_mem_ctrl.v":0)
+Compiling module '**'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\GAO_LITE\GW_CON\gw_con_top.v":0)
+Compiling module 'GW_JTAG'("C:\Gowin\Gowin_V1.9.8.09_Education\IDE\data\ipcores\gw_jtag.v":1)
+Compiling module 'gw_gao'("E:\git\TangNano9K_motordriver\sampleProject\test\impl\gwsynthesis\RTL_GAO\gw_gao_top.v":1)
+Trying to combine GAO to RTL design
+NOTE  (EX0101) : Current top module is "top_w12"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input rotary1_SW is unused("E:\git\TangNano9K_motordriver\sampleProject\test\src\top_w12.sv":31)
+WARN  (CV0017) : Inout scl is unused("E:\git\TangNano9K_motordriver\sampleProject\test\src\top_w12.sv":25)
+WARN  (CV0017) : Inout sda is unused("E:\git\TangNano9K_motordriver\sampleProject\test\src\top_w12.sv":26)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "E:\git\TangNano9K_motordriver\sampleProject\test\impl\gwsynthesis\StepperMotor.vg" completed
+[100%] Generate report file "E:\git\TangNano9K_motordriver\sampleProject\test\impl\gwsynthesis\StepperMotor_syn.rpt.html" completed
+GowinSynthesis finish
