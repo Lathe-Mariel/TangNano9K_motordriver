@@ -23,7 +23,7 @@ module gw_gao(
     \tpg_inst/shader_w12.tmp1[2] ,
     \tpg_inst/shader_w12.tmp1[1] ,
     \tpg_inst/shader_w12.tmp1[0] ,
-    \dvi_out_inst/clock ,
+    clock_dvi,
     tms_pad_i,
     tck_pad_i,
     tdi_pad_i,
@@ -54,7 +54,7 @@ input \tpg_inst/shader_w12.tmp1[3] ;
 input \tpg_inst/shader_w12.tmp1[2] ;
 input \tpg_inst/shader_w12.tmp1[1] ;
 input \tpg_inst/shader_w12.tmp1[0] ;
-input \dvi_out_inst/clock ;
+input clock_dvi;
 input tms_pad_i;
 input tck_pad_i;
 input tdi_pad_i;
@@ -84,7 +84,7 @@ wire \tpg_inst/shader_w12.tmp1[3] ;
 wire \tpg_inst/shader_w12.tmp1[2] ;
 wire \tpg_inst/shader_w12.tmp1[1] ;
 wire \tpg_inst/shader_w12.tmp1[0] ;
-wire \dvi_out_inst/clock ;
+wire clock_dvi;
 wire tms_pad_i;
 wire tck_pad_i;
 wire tdi_pad_i;
@@ -159,7 +159,7 @@ gw_con_top  u_icon_top(
 ao_top u_ao_top(
     .control(control0[9:0]),
     .data_i({\tpg_inst/shader_w12.tmp1[23] ,\tpg_inst/shader_w12.tmp1[22] ,\tpg_inst/shader_w12.tmp1[21] ,\tpg_inst/shader_w12.tmp1[20] ,\tpg_inst/shader_w12.tmp1[19] ,\tpg_inst/shader_w12.tmp1[18] ,\tpg_inst/shader_w12.tmp1[17] ,\tpg_inst/shader_w12.tmp1[16] ,\tpg_inst/shader_w12.tmp1[15] ,\tpg_inst/shader_w12.tmp1[14] ,\tpg_inst/shader_w12.tmp1[13] ,\tpg_inst/shader_w12.tmp1[12] ,\tpg_inst/shader_w12.tmp1[11] ,\tpg_inst/shader_w12.tmp1[10] ,\tpg_inst/shader_w12.tmp1[9] ,\tpg_inst/shader_w12.tmp1[8] ,\tpg_inst/shader_w12.tmp1[7] ,\tpg_inst/shader_w12.tmp1[6] ,\tpg_inst/shader_w12.tmp1[5] ,\tpg_inst/shader_w12.tmp1[4] ,\tpg_inst/shader_w12.tmp1[3] ,\tpg_inst/shader_w12.tmp1[2] ,\tpg_inst/shader_w12.tmp1[1] ,\tpg_inst/shader_w12.tmp1[0] }),
-    .clk_i(\dvi_out_inst/clock )
+    .clk_i(clock_dvi)
 );
 
 endmodule

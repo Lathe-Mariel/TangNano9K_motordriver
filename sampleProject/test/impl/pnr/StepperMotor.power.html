@@ -83,7 +83,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Created Time</td>
-<td>Wed Jan 25 19:58:21 2023
+<td>Wed Jan 25 20:06:22 2023
 </td>
 </tr>
 <tr>
@@ -96,15 +96,15 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <table class="summary_table">
 <tr>
 <td class="label">Total Power (mW)</td>
-<td>27.198</td>
+<td>37.635</td>
 </tr>
 <tr>
 <td class="label">Quiescent Power (mW)</td>
-<td>9.354</td>
+<td>9.359</td>
 </tr>
 <tr>
 <td class="label">Dynamic Power (mW)</td>
-<td>17.844</td>
+<td>28.276</td>
 </tr>
 <tr>
 <td class="label">Psram Power (mW)</td>
@@ -115,7 +115,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <table class="summary_table">
 <tr>
 <td class="label">Junction Temperature</td>
-<td>25.584</td>
+<td>25.808</td>
 </tr>
 <tr>
 <td class="label">Theta JA</td>
@@ -123,7 +123,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Max Allowed Ambient Temperature</td>
-<td>84.416</td>
+<td>84.192</td>
 </tr>
 </table>
 <h2><a name="Configure_Info">Configure Information:</a></h2>
@@ -192,9 +192,9 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <tr>
 <td>VCC</td>
 <td>1.200</td>
-<td>11.272</td>
-<td>2.148</td>
-<td>16.104</td>
+<td>19.966</td>
+<td>2.151</td>
+<td>26.541</td>
 </tr>
 <tr>
 <td>VCCX</td>
@@ -229,15 +229,21 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td>Logic</td>
-<td>0.126</td>
+<td>0.174</td>
 <td>NA</td>
-<td>5.831</td>
+<td>5.935</td>
 </tr>
 <tr>
 <td>IO</td>
 <td>6.939
 <td>1.661
 <td>12.115
+</tr>
+<tr>
+<td>BSRAM</td>
+<td>10.383
+<td>NA</td>
+<td>NA</td>
 </tr>
 <tr>
 <td>PLL</td>
@@ -255,24 +261,24 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td>top_w12</td>
-<td>12.552</td>
-<td>12.552(12.547)</td>
+<td>22.983</td>
+<td>22.983(22.978)</td>
 <tr>
 <td>top_w12/dvi_out_inst/</td>
 <td>0.058</td>
 <td>0.058(0.000)</td>
 <tr>
 <td>top_w12/gw_gao_inst_0/</td>
-<td>0.019</td>
-<td>0.019(0.019)</td>
+<td>10.404</td>
+<td>10.404(10.404)</td>
 <tr>
 <td>top_w12/gw_gao_inst_0/u_ao_top/</td>
-<td>0.019</td>
-<td>0.019(0.006)</td>
+<td>10.404</td>
+<td>10.404(10.389)</td>
 <tr>
 <td>top_w12/gw_gao_inst_0/u_ao_top/u_ao_mem_ctrl/</td>
-<td>0.006</td>
-<td>0.006(0.000)</td>
+<td>10.389</td>
+<td>10.389(0.000)</td>
 <tr>
 <td>top_w12/gw_gao_inst_0/u_icon_top/</td>
 <td>0.001</td>
@@ -311,8 +317,8 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>0.009(0.000)</td>
 <tr>
 <td>top_w12/tpg_inst/</td>
-<td>0.025</td>
-<td>0.025(0.000)</td>
+<td>0.071</td>
+<td>0.071(0.000)</td>
 </table>
 <h2><a name="By_Clock_Domain">Power By Clock Domain:</a></h2>
 <table class="detail_table">
@@ -320,6 +326,16 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <th class="label">Clock Domain</th>
 <th class="label">Clock Frequency(Mhz)</th>
 <th class="label">Total Dynamic Power(mW)</th>
+</tr>
+<tr>
+<td>rpll_dvi/rpll_inst/CLKOUT.default_gen_clk</td>
+<td>74.250</td>
+<td>18.680</td>
+</tr>
+<tr>
+<td>tck_pad_i</td>
+<td>20.000</td>
+<td>2.218</td>
 </tr>
 <tr>
 <td>clk</td>
@@ -335,16 +351,6 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <td>NO CLOCK DOMAIN</td>
 <td>0.000</td>
 <td>0.000</td>
-</tr>
-<tr>
-<td>tck_pad_i</td>
-<td>20.000</td>
-<td>0.011</td>
-</tr>
-<tr>
-<td>rpll_dvi/rpll_inst/CLKOUT.default_gen_clk</td>
-<td>74.250</td>
-<td>10.454</td>
 </tr>
 <tr>
 <td>rpll_dvi_ser/rpll_inst/CLKOUT.default_gen_clk</td>

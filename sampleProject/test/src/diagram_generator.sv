@@ -76,7 +76,14 @@ end
 
 function [23:0] shader_w12(hcounter_t x, vcounter_t y);
 begin
-  logic[23:0] tmp1 = (x>y)?(x-y):(y-x);
+//  logic[23:0] tmp1 = (x>y)?(x-y):(y-x);
+
+  logic[23:0] tmp1;
+  if(x>y)begin
+    tmp1 <= x-y;
+  end else begin
+    tmp1 <= y-x;
+  end
 
   if(tmp1>0)begin
     shader_w12 <= 24'h000000;
