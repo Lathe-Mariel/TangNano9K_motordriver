@@ -1,4 +1,6 @@
-// srce code relates next file's license//
+// This source code(top_w12.sv) is wrriten by Akira Nagai,
+// and is related with next file's license.
+
 // @file top.sv
 // @brief Top module for DVI test pattern generator design.
 //
@@ -220,13 +222,13 @@ reset_seq reset_seq_ext(
 
 gowin_rpll_dvi rpll_dvi(
     .clkout(clock_dvi), //output clkout
-    .lock(pll_lock), //output lock
-    .clkin(clk) //input clkin
+    .lock(pll_lock),    //output lock
+    .clkin(clk)         //input clkin
 );
 gowin_rpll_ser rpll_dvi_ser(
     .clkout(clock_dvi_ser), //output clkout
-    .lock(pll_lock_ser), //output lock
-    .clkin(clock_dvi) //input clkin
+    .lock(pll_lock_ser),    //output lock
+    .clkin(clock_dvi)       //input clkin
 );
 
 logic reset_dvi;

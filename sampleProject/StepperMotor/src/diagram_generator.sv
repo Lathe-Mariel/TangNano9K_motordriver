@@ -1,4 +1,6 @@
-// This source code relates next file's license
+// This source code(diagram_generator.sv) is written by Akira Nagai,
+// and is related with next file's license.
+//
 // SPDX-License-Identifier: BSL-1.0
 // Copyright Kenta Ida 2022.
 // Distributed under the Boost Software License, Version 1.0.
@@ -22,6 +24,7 @@ module diagram_generator #(
 )(
     input wire clock,
     input wire reset,
+    input wire[1:0] excitation_mode,
 
     output logic  [23:0] video_data,
     output logic         video_de,
@@ -69,174 +72,177 @@ always_ff @(posedge clock) begin
                 && VSYNC + VBACK <= vcounter && vcounter < VSYNC + VBACK + VACTIVE;
         video_hsync <= hcounter < HSYNC;
         video_vsync <= vcounter < VSYNC;
-//2phase
-        if(vcounter == 100)begin
-          if((hcounter & 8'b10000000) == 0)begin
-            video_data <= 24'heeeeee;
-          end
-          else begin
-            video_data <= 24'h000000;
-          end
-        end
-        else if(vcounter == 160 )begin
-          if((hcounter & 5'b10000) == 0)begin
-            video_data <= 24'hbbbbbb;
-          end
-          else begin
-            video_data <= 24'heeeeee;
-          end
-        end
-        else if(vcounter == 220 )begin
-          if((hcounter & 8'b10000000) == 0)begin
-            video_data <= 24'h000000;
-          end
-          else begin
-            video_data <= 24'heeeeee;
-          end
-        end
-        else if(vcounter > 100 && vcounter < 220)begin
-          if((hcounter % 128) == 0)begin
-              video_data <= 24'h000000;
-          end
-          else begin
-            video_data <= 24'heeeeee;
-          end
-        end
-
-        else begin
-          video_data <= shader_w12(hcounter-250, vcounter-400);
-        end
+    end
+    
+    if(excitation_mode == 2)begin
+      video_data <= diagram_w12(hcounter-250, vcounter-100);
+    end else if(excitation_mode == 0)begin
+      video_data <= diagram_2(hcounter, vcounter);
+    end else begin
+      video_data <= 24'heeeeee;
     end
 end
 
-
-function [23:0] shader_w12(hcounter_t x, vcounter_t y);
+function [23:0] diagram_2(hcounter_t x, vcounter_t y);
 begin
-  logic[23:0] tmp1 = (x>y)?(x-y):(y-x);
+    if(y == 100)begin
+      if((x & 8'b10000000) == 0)begin
+        diagram_2 <= 24'heeeeee;
+      end
+      else begin
+        diagram_2 <= 24'h000000;
+      end
+    end
+    else if(y == 160 )begin
+      if((x & 5'b10000) == 0)begin
+        diagram_2 <= 24'hbbbbbb;
+      end
+      else begin
+        diagram_2 <= 24'heeeeee;
+      end
+    end
+    else if(y == 220 )begin
+      if((x & 8'b10000000) == 0)begin
+        diagram_2 <= 24'h000000;
+      end
+      else begin
+        diagram_2 <= 24'heeeeee;
+      end
+    end
+    else if(y > 100 && y < 220)begin
+      if((x % 128) == 0)begin
+        diagram_2 <= 24'h000000;
+      end
+      else begin
+        diagram_2 <= 24'heeeeee;
+      end
+    end
+    else begin
+      diagram_2 <= 24'heeeeee;
+    end
 
+end
+endfunction
+
+function [23:0] diagram_w12(hcounter_t x, vcounter_t y);
+begin
   if((x / 160) % 2)begin
     y = 120 - y;
   end
   x = x % 160;
 
-if(tmp1>0)begin
-
         if((x < 70 || x > 90) && y == 60)begin 
           if((x & 5'b10000) == 0)begin
-            shader_w12 <= 24'hbbbbbb;
+            diagram_w12 <= 24'hbbbbbb;
           end else begin
-            shader_w12 <= 24'heeeeee;
+            diagram_w12 <= 24'heeeeee;
           end
         end
         else if(x < 30)begin
           if(y == 120)begin
-            shader_w12 <= 24'h000000;
+            diagram_w12 <= 24'h000000;
           end
           else begin
-            shader_w12 <= 24'heeeeee;
+            diagram_w12 <= 24'heeeeee;
           end
         end
         else if(x == 30)begin
           if(y <120 && y > 100)begin
-            shader_w12 <= 24'h000000;
+            diagram_w12 <= 24'h000000;
           end
           else begin
-            shader_w12 <= 24'heeeeee;
+            diagram_w12 <= 24'heeeeee;
           end
         end
         else if(x < 50)begin
           if(y == 100)begin
-            shader_w12 <= 24'h000000;
+            diagram_w12 <= 24'h000000;
           end
           else begin
-            shader_w12 <= 24'heeeeee;
+            diagram_w12 <= 24'heeeeee;
           end
         end
         else if(x == 50)begin
           if(y < 100 && y > 80)begin
-            shader_w12 <= 24'h000000;
+            diagram_w12 <= 24'h000000;
           end
           else begin
-            shader_w12 <= 24'heeeeee;
+            diagram_w12 <= 24'heeeeee;
           end
         end
         else if(x < 70)begin
           if(y == 80)begin
-            shader_w12 <= 24'h000000;
+            diagram_w12 <= 24'h000000;
           end
           else begin
-            shader_w12 <= 24'heeeeee;
+            diagram_w12 <= 24'heeeeee;
           end
         end
         else if(x == 70)begin
           if(y < 80 && y > 60)begin
-            shader_w12 <= 24'h000000;
+            diagram_w12 <= 24'h000000;
           end
           else begin
-            shader_w12 <= 24'heeeeee;
+            diagram_w12 <= 24'heeeeee;
           end
         end
         else if(x < 90)begin
           if(y == 60)begin
-            shader_w12 <= 24'h000000;
+            diagram_w12 <= 24'h000000;
           end
           else begin
-            shader_w12 <= 24'heeeeee;
+            diagram_w12 <= 24'heeeeee;
           end
         end
         else if(x == 90)begin
           if(y < 60 && y > 40)begin
-            shader_w12 <= 24'h000000;
+            diagram_w12 <= 24'h000000;
           end
           else begin
-            shader_w12 <= 24'heeeeee;
+            diagram_w12 <= 24'heeeeee;
           end
         end
         else if(x < 110)begin
           if(y == 40)begin
-            shader_w12 <= 24'h000000;
+            diagram_w12 <= 24'h000000;
           end
           else begin
-            shader_w12 <= 24'heeeeee;
+            diagram_w12 <= 24'heeeeee;
           end
         end
         else if(x == 110)begin
           if(y < 40 && y > 20)begin
-            shader_w12 <= 24'h000000;
+            diagram_w12 <= 24'h000000;
           end
           else begin
-            shader_w12 <= 24'heeeeee;
+            diagram_w12 <= 24'heeeeee;
           end
         end
         else if(x < 130)begin
           if(y == 20)begin
-            shader_w12 <= 24'h000000;
+            diagram_w12 <= 24'h000000;
           end
           else begin
-            shader_w12 <= 24'heeeeee;
+            diagram_w12 <= 24'heeeeee;
           end
         end
         else if(x == 130)begin
           if(y < 20 && y > 0)begin
-            shader_w12 <= 24'h000000;
+            diagram_w12 <= 24'h000000;
           end
           else begin
-            shader_w12 <= 24'heeeeee;
+            diagram_w12 <= 24'heeeeee;
           end
         end
         else if(x < 160)begin
           if(y == 0)begin
-            shader_w12 <= 24'h000000;
+            diagram_w12 <= 24'h000000;
           end
           else begin
-            shader_w12 <= 24'heeeeee;
+            diagram_w12 <= 24'heeeeee;
           end
         end
-        else begin
-            shader_w12 <= 24'heeeeee;
-        end
     end
-end
 endfunction
 
 endmodule
