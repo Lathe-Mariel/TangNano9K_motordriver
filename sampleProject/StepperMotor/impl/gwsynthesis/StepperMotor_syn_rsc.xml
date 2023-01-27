@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="top_w12" Register="25" Lut="47">
+<Module name="top_w12" Register="28" Lut="49">
     <SubModule name="inst_w12" Register="9" Alu="4" Lut="3"/>
     <SubModule name="inst_12" Register="4" Alu="4" Lut="4"/>
     <SubModule name="inst_2" Register="3" Alu="4" Lut="7"/>
     <SubModule name="timer_i" Register="17" Alu="15" Lut="6"/>
+    <SubModule name="reset_seq_ext" Register="17"/>
+    <SubModule name="rpll_dvi"/>
+    <SubModule name="rpll_dvi_ser"/>
+    <SubModule name="reset_seq_dvi" Register="5"/>
+    <SubModule name="tpg_inst" Register="27" Alu="10" Lut="181"/>
+    <SubModule name="dvi_out_inst" Register="73" Alu="66" Lut="198"/>
 </Module>

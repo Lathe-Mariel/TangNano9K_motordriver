@@ -103,6 +103,16 @@ IO_PORT "rotary2_b" IO_TYPE=LVCMOS33 PULL_MODE=UP;
 IO_LOC "rotary2_SW" 57;  //exclusive
 IO_PORT "rotary2_SW" IO_TYPE=LVCMOS33 PULL_MODE=UP;
 */
+
+IO_LOC "tmds_clk_p" 69,68;
+IO_LOC "tmds_data_p[0]" 71,70;
+IO_LOC "tmds_data_p[1]" 73,72;
+IO_LOC "tmds_data_p[2]" 75,74;
+IO_PORT "tmds_clk_p"     PULL_MODE=NONE IO_TYPE=LVCMOS33D DRIVE=8;
+IO_PORT "tmds_data_p[0]" PULL_MODE=NONE IO_TYPE=LVCMOS33D DRIVE=8;
+IO_PORT "tmds_data_p[1]" PULL_MODE=NONE IO_TYPE=LVCMOS33D DRIVE=8;
+IO_PORT "tmds_data_p[2]" PULL_MODE=NONE IO_TYPE=LVCMOS33D DRIVE=8;
+
 IO_LOC "rotary1_SW" 63;
 IO_PORT "rotary1_SW" IO_TYPE=LVCMOS33 PULL_MODE=UP;
 IO_LOC "rotary1_a" 41;
