@@ -58,6 +58,7 @@ DC-DC converter can be installed on the board.
 - JP1 ～ JP4　　ショートさせるとINA1～INB2をTB67S101ANGのVCCピンと接続
 - JP5 ～ JP8　　ショートさせるとFPGAとINA1～INB2を接続
 - JP9　　JP5の線を7セグLEDのコモンに接続
+- JP10 ～ JP17　　マトリクスLEDに（アノード側）電流制限抵抗を付けない場合は，これらのソルダージャンパをショートさせてください  
 
 ## マトリクスLED MatrixLED
 　増幅回路も電流制限抵抗も入れていません．  
