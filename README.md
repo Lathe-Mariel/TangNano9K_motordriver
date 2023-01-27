@@ -7,7 +7,8 @@ This is mother board for Tang Nano 9K(Sipeed).
 These files were made by KiCAD.
   
 /doc ドキュメント用の素材  
-/output　KiCADで出力したガーバーデータ．このままPCBに発注できます．  
+/output　KiCADで出力したガーバーデータ  
+/output/tangnano9k_motordriver-v3.zip　　PCBメーカにアップロードするファイル  
 /sampleProject　この基板向けの数種類のサンプルプロジェクト  
 
   
