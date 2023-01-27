@@ -75,7 +75,7 @@ DC-DC converter can be installed on the board.
    
  ![](doc/aki.png "参考部品リスト")
  
-## 機能の捕捉 Additional for Functions
+## 機能の補足 Additional for Functions
 ### モータドライバTB67S101ANG（TOSHIBA）
 　このICへ電流制御用のレファレンス電圧を供給する必要があります．Pinは `VREFA` 及び `VREFB` です．このボードでは `VREFA` と `VREFB` は直結されています．これらとFPGAの `27` （モータドライバch1）が接続されています．FPGAからパルスのデューティで所望の電圧を送って下さい．電圧の平滑化のために，RCフィルタのパターンが実装されています．R7とC8（モータドライバch1）に適当な値のものを実装してください．  
  （RCは，1μFと100kオーム．duty3/8くらいから試してください）  
@@ -97,6 +97,7 @@ DC-DC converter can be installed on the board.
  このサンプルプログラムでは，DVI出力もしています．ピンが競合するのでマトリクスLEDは取り外してください．  
 #### DVI出力
 　DVI出力については，Interface誌2022年12月号　別冊付録Gowin　の応用編第3章の記事で紹介されたデザインをパクり，一部を改変しています（SPDXライセンス）．  
+  
   
 ### Parallel
 　回路を複数のモジュールに分けて並列に実行させるサンプルです．3つのLEDを3つの回路で点滅させています．  
