@@ -22,16 +22,27 @@ module top (
 
   logic [7:0] row_p, col_p;
 
-  assign cathode[0] = ~col_p[7];
-  assign cathode[1] = ~col_p[6];
-  assign cathode[2] = ~col_p[5];
-  assign cathode[3] = ~col_p[4];
-  assign cathode[4] = ~col_p[3];
-  assign cathode[5] = ~col_p[2];
-  assign cathode[6] = ~col_p[1];
-  assign cathode[7] = ~col_p[0];
+// for Board ver0.2 - ver0.3
+//  assign cathode[0] = ~col_p[7];
+//  assign cathode[1] = ~col_p[6];
+//  assign cathode[2] = ~col_p[5];
+//  assign cathode[3] = ~col_p[4];
+//  assign cathode[4] = ~col_p[3];
+//  assign cathode[5] = ~col_p[2];
+//  assign cathode[6] = ~col_p[1];
+//  assign cathode[7] = ~col_p[0];
+//  assign anode = row_p;  
 
-  assign anode = row_p;
+// for Board ver 0.1
+  assign cathode[7] = row_p[0];
+  assign cathode[6] = row_p[1];
+  assign cathode[5] = row_p[2];
+  assign cathode[4] = row_p[3];
+  assign cathode[3] = row_p[4];
+  assign cathode[2] = row_p[5];
+  assign cathode[1] = row_p[6];
+  assign cathode[0] = row_p[7];
+  assign anode = ~col_p;
 
   LEDMatrixAB_m inst_2 (
     .clk(clk),

@@ -9,7 +9,7 @@
   "SubInsts" : [
    {
     "InstFile" : "E:/git/TangNano9K_motordriver/sampleProject/PolyphonyMatrix_Clock/src/top.sv",
-    "InstLine" : 36,
+    "InstLine" : 46,
     "InstName" : "inst_2",
     "ModuleFile" : "E:/git/TangNano9K_motordriver/sampleProject/PolyphonyMatrix_Clock/src/LEDMatrixAB_m.v",
     "ModuleLine" : 1,
@@ -17,10 +17,10 @@
    },
    {
     "InstFile" : "E:/git/TangNano9K_motordriver/sampleProject/PolyphonyMatrix_Clock/src/top.sv",
-    "InstLine" : 53,
+    "InstLine" : 63,
     "InstName" : "inst_1",
     "ModuleFile" : "E:/git/TangNano9K_motordriver/sampleProject/PolyphonyMatrix_Clock/src/top.sv",
-    "ModuleLine" : 64,
+    "ModuleLine" : 74,
     "ModuleName" : "timer"
    }
   ]

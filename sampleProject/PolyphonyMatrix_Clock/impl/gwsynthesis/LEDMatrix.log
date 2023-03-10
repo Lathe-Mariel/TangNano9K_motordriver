@@ -55,9 +55,9 @@ WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("E:\git\Ta
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\src\LEDMatrixAB_m.v":1149)
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\src\LEDMatrixAB_m.v":1209)
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\src\LEDMatrixAB_m.v":1263)
-Compiling module 'timer(COUNT_MAX=13500000)'("E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\src\top.sv":64)
-WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\src\top.sv":78)
-WARN  (EX3791) : Expression size 2 truncated to fit in target size 1("E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\src\top.sv":59)
+Compiling module 'timer(COUNT_MAX=13500000)'("E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\src\top.sv":75)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\src\top.sv":89)
+WARN  (EX3791) : Expression size 2 truncated to fit in target size 1("E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\src\top.sv":70)
 NOTE  (EX0101) : Current top module is "top"
 [5%] Running netlist conversion ...
 WARN  (CV0016) : Input sw1 is unused("E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\src\top.sv":6)

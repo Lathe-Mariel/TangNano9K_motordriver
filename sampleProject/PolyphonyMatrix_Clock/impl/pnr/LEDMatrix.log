@@ -1,7 +1,7 @@
 Reading netlist file: "E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\impl\gwsynthesis\LEDMatrix.vg"
 Parsing netlist file "E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\impl\gwsynthesis\LEDMatrix.vg" completed
 Processing netlist completed
-Reading constraint file: "E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\src\top.cst"
+Reading constraint file: "E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\src\top.cst_old"
 Physical Constraint parsed completed
 Running placement......
 [10%] Placement Phase 0 completed
@@ -25,5 +25,5 @@ Generate file "E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock
 Generate file "E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\impl\pnr\LEDMatrix.rpt.html" completed
 Generate file "E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\impl\pnr\LEDMatrix.rpt.txt" completed
 Generate file "E:\git\TangNano9K_motordriver\sampleProject\PolyphonyMatrix_Clock\impl\pnr\LEDMatrix.tr.html" completed
-Mon Jan 16 12:36:31 2023
+Thu Mar 02 14:05:35 2023
 
