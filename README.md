@@ -36,7 +36,7 @@ DC-DC converter can be installed on the board.
   
 基板上のDCジャックへ入力された電圧は，上記DC-DCコンバータとモータドライバICのモータ電源（VM）へ入力されます．  
  
-## FPGA側のピンを共用する機能 Multi purpose pins
+## FPGA側のピンを共用する機能 Multi purpose pins for board functions
 　FPGAのピン数が限られているので，一部の機能は同時に利用できません．  
    
 ### HDMIコネクタとマトリクスLED＆ロータリエンコーダ2
