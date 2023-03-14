@@ -1,0 +1,16 @@
+{
+ "Files" : [
+  {
+   "Path" : "E:/git/TangNano9K_motordriver/sampleProject/DIP_SW/src/top.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "E:/git/TangNano9K_motordriver/sampleProject/DIP_SW/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "E:/git/TangNano9K_motordriver/sampleProject/Polyphony_DIP_SW/src/LEDMatrixAB_m.v",
+  "InstLine" : 1,
+  "InstName" : "LEDMatrixAB_m",
+  "ModuleFile" : "E:/git/TangNano9K_motordriver/sampleProject/Polyphony_DIP_SW/src/LEDMatrixAB_m.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "LEDMatrixAB_m"
+ },
+ {
+  "InstFile" : "E:/git/TangNano9K_motordriver/sampleProject/Polyphony_DIP_SW/src/top.sv",
+  "InstLine" : 3,
+  "InstName" : "top",
+  "ModuleFile" : "E:/git/TangNano9K_motordriver/sampleProject/Polyphony_DIP_SW/src/top.sv",
+  "ModuleLine" : 3,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/git/TangNano9K_motordriver/sampleProject/Polyphony_DIP_SW/src/top.sv",
+    "InstLine" : 82,
+    "InstName" : "inst_1",
+    "ModuleFile" : "E:/git/TangNano9K_motordriver/sampleProject/Polyphony_DIP_SW/src/top.sv",
+    "ModuleLine" : 93,
+    "ModuleName" : "timer"
+   }
+  ]
+ }
+]

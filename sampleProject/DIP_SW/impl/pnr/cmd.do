@@ -1,0 +1,11 @@
+-d E:\git\TangNano9K_motordriver\sampleProject\DIP_SW\impl\gwsynthesis\DIP_SW.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst E:\git\TangNano9K_motordriver\sampleProject\DIP_SW\src\top.cst_old
+-cfg E:\git\TangNano9K_motordriver\sampleProject\DIP_SW\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-route_maxfan 23
