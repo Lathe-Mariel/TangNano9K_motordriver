@@ -37,7 +37,7 @@ DC-DC converter can be installed on the board.
 基板上のDCジャックへ入力された電圧は，上記DC-DCコンバータとモータドライバICのモータ電源（VM）へ入力されます．  
  
 ## FPGA側のピンを共用する機能 Multi purpose pins for board functions
-　FPGAのピン数が限られているので，一部の機能は同時に利用できません．  
+　FPGAのピン数が限られているので，拡張ボードの持つ機能のうち，一部の機能は同時利用はできません．  
    
 ### HDMIコネクタとマトリクスLED＆ロータリエンコーダ×2
 　DVI信号を出力する場合， `HDMI_CK_N(68)` ， `HDMI_CK_P(69)` ， `HDMI_D0` ～ `HDMI_D2` など8本の信号を使います．これらは，ロータリエンコーダ2ch目とマトリクスLEDの信号と競合します．従ってDVI出力する場合は，ロータリエンコーダの2ch目とマトリクスLEDが使えません．  
