@@ -119,3 +119,6 @@ DC-DC converter can be installed on the board.
   
  （1）TB67S101ANGデータシート  
  https://toshiba.semicon-storage.com/jp/semiconductor/product/motor-driver-ics/stepping-motor-driver-ics/detail.TB67S101ANG.html
+
+# Schematics
+https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2FLathe-Mariel%2FTangNano9K_motordriver%2Ftree%2Fmain
