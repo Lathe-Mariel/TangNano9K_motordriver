@@ -34,13 +34,13 @@ You can install these functions with this board.
 DC-DCコンバータには7～26Vを入力し，出力される5VをTang Nano 9Kへ供給できます．  
 DC-DC converter can be installed on the board.  
   
-基板上のDCジャックへ入力された電圧は，上記DC-DCコンバータとモータドライバICのモータ電源（VM）へ入力されます．  
+基板上のDCジャックへ入力された電圧は，上記DC-DCコンバータとモータ・ドライバICのモータ電源（VM）へ入力されます．  
  
 ## FPGA側のピンを共用する機能 Multi purpose pins for board functions
 　FPGAのピン数が限られているので，拡張ボードの持つ機能のうち，一部の機能は同時利用はできません．  
    
-### HDMIコネクタとマトリクスLED＆ロータリエンコーダ×2
-　DVI信号を出力する場合， `HDMI_CK_N(68)` ， `HDMI_CK_P(69)` ， `HDMI_D0` ～ `HDMI_D2` など8本の信号を使います．これらは，ロータリエンコーダ2ch目とマトリクスLEDの信号と競合します．従ってDVI出力する場合は，ロータリエンコーダの2ch目とマトリクスLEDが使えません．  
+### HDMIコネクタとマトリクスLED＆ロータリ・エンコーダ×2
+　DVI信号を出力する場合， `HDMI_CK_N(68)` ， `HDMI_CK_P(69)` ， `HDMI_D0` ～ `HDMI_D2` など8本の信号を使います．これらは，ロータリ・エンコーダ2ch目およびマトリクスLEDの信号と競合します．従ってDVI出力する場合は，ロータリ・エンコーダの2ch目とマトリクスLEDが使えません．  
   ボードにマトリクスLEDを実装するときは，必要に応じて脱着できるようにピンソケット経由にするのがお勧めです． 
 
 ### HDMIコネクタとマトリクスLED
